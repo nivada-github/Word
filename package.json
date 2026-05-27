@@ -1,0 +1,30 @@
+{
+  "name": "word-api",
+  "version": "1.0.0",
+  "description": "A fun Node.js API for word games and utilities",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivada-github/Word.git"
+  },
+  "keywords": ["word", "api", "games", "anagram", "dictionary"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivada-github/Word/issues"
+  },
+  "homepage": "https://github.com/nivada-github/Word#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
