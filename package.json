@@ -1,24 +1,16 @@
 {
-  "name": "word-api",
-  "version": "1.0.0",
-  "description": "A fun Node.js API for word games and utilities",
+  "name": "word-vortex",
+  "version": "0.1.0",
+  "description": "Word Vortex",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "jest --verbose"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nivada-github/Word.git"
-  },
-  "keywords": ["word", "api", "games", "anagram", "dictionary"],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nivada-github/Word/issues"
-  },
-  "homepage": "https://github.com/nivada-github/Word#readme",
   "engines": {
     "node": ">=18"
   },

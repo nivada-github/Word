@@ -1,7 +1,7 @@
 {
-  "name": "Word",
-  "short_name": "Word",
-  "description": "Word games & utilities",
+  "name": "Word Vortex",
+  "short_name": "Word Vortex",
+  "description": "Word Vortex",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f1a",
