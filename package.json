@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "download-words": "node src/words.js"
   },
   "keywords": [],
   "author": "",
