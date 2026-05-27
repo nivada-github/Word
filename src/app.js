@@ -1,6 +1,7 @@
 const path = require("path");
 const express = require("express");
 const cors = require("cors");
+const searchRoutes = require("./routes/search");
 
 const app = express();
 
@@ -16,6 +17,9 @@ app.get("/api", (_req, res) => {
       "GET /": "The web app",
       "GET /api": "This endpoint list",
       "GET /health": "Health check",
+      "GET /api/search?q=&limit=": "Search through data (autofill-ready)",
+      "GET /api/search/status": "Search index status",
+      "POST /api/search/reload": "Reload search data from disk",
     },
   });
 });
@@ -23,6 +27,8 @@ app.get("/api", (_req, res) => {
 app.get("/health", (_req, res) => {
   res.json({ status: "ok", uptime: process.uptime() });
 });
+
+app.use("/api", searchRoutes);
 
 app.use((_req, res) => {
   res.status(404).json({ error: "Not found. Hit GET /api for available endpoints." });
