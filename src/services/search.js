@@ -17,7 +17,7 @@ class SearchIndex {
     try {
       const raw = fs.readFileSync(this.dataPath, "utf-8");
       const parsed = JSON.parse(raw);
-      this.items = Array.isArray(parsed) ? parsed : [];
+      this.items = this._extractItems(parsed);
       this.loaded = true;
       this.error = null;
     } catch (err) {
@@ -29,6 +29,14 @@ class SearchIndex {
           : `Failed to parse data file: ${err.message}`;
     }
     return this;
+  }
+
+  _extractItems(parsed) {
+    if (Array.isArray(parsed)) return parsed;
+    if (typeof parsed === "object" && parsed !== null && Array.isArray(parsed.words)) {
+      return parsed.words;
+    }
+    return [];
   }
 
   reload() {

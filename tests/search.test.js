@@ -106,16 +106,24 @@ describe("SearchIndex", () => {
 // --- API endpoint tests ---
 
 describe("GET /api/search", () => {
-  it("returns 503 when data file is not loaded", async () => {
-    const res = await request(app).get("/api/search?q=test");
-    expect(res.status).toBe(503);
-    expect(res.body.error).toMatch(/not available/i);
+  it("returns ranked results from words.json", async () => {
+    const res = await request(app).get("/api/search?q=app");
+    expect(res.status).toBe(200);
+    expect(res.body.results.length).toBeGreaterThan(0);
+    expect(res.body.query).toBe("app");
+    expect(res.body.total).toBeGreaterThanOrEqual(res.body.results.length);
   });
 
   it("returns 400 when q is missing", async () => {
     const res = await request(app).get("/api/search");
-    // either 400 (no q) or 503 (no data) depending on load order
-    expect([400, 503]).toContain(res.status);
+    expect(res.status).toBe(400);
+    expect(res.body.error).toMatch(/required/i);
+  });
+
+  it("respects limit parameter", async () => {
+    const res = await request(app).get("/api/search?q=a&limit=3");
+    expect(res.status).toBe(200);
+    expect(res.body.results.length).toBeLessThanOrEqual(3);
   });
 });
 
