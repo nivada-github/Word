@@ -19,6 +19,9 @@
     "url": "https://github.com/nivada-github/Word/issues"
   },
   "homepage": "https://github.com/nivada-github/Word#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2"
