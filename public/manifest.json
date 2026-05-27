@@ -1,0 +1,12 @@
+{
+  "name": "Word",
+  "short_name": "Word",
+  "description": "Word games & utilities",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#7c5cfc",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

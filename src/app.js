@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const wordRoutes = require("./routes/words");
@@ -6,14 +7,16 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "..", "public")));
 
-app.get("/", (_req, res) => {
+app.get("/api", (_req, res) => {
   res.json({
     name: "Word API",
     version: "1.0.0",
     description: "A fun API for word games and utilities",
     endpoints: {
-      "GET /":                          "This help message",
+      "GET /":                          "The web app (open in a browser)",
+      "GET /api":                       "This endpoint list (JSON)",
       "GET /words/random":              "Get a random word with its definition",
       "GET /words/random/:count":       "Get multiple random words",
       "GET /words/today":               "Get the word of the day",
@@ -35,7 +38,7 @@ app.get("/health", (_req, res) => {
 });
 
 app.use((_req, res) => {
-  res.status(404).json({ error: "Not found. Hit GET / for available endpoints." });
+  res.status(404).json({ error: "Not found. Hit GET /api for available endpoints." });
 });
 
 module.exports = app;

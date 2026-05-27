@@ -2,8 +2,16 @@ const request = require("supertest");
 const app = require("../src/app");
 
 describe("GET /", () => {
-  it("returns API info and endpoint list", async () => {
+  it("serves the web app", async () => {
     const res = await request(app).get("/");
+    expect(res.status).toBe(200);
+    expect(res.headers["content-type"]).toMatch(/html/);
+  });
+});
+
+describe("GET /api", () => {
+  it("returns API info and endpoint list", async () => {
+    const res = await request(app).get("/api");
     expect(res.status).toBe(200);
     expect(res.body.name).toBe("Word API");
     expect(res.body.endpoints).toBeDefined();
