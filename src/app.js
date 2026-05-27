@@ -2,6 +2,7 @@ const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const { download, load } = require("./words");
+const searchRoutes = require("./routes/search");
 
 const app = express();
 
@@ -21,6 +22,9 @@ app.get("/api", (_req, res) => {
       "GET /api/words/search?q=term": "Search words by prefix",
       "GET /api/words/random": "Get a random word",
       "POST /api/words/download": "Download / refresh English words from the internet",
+      "GET /api/search?q=&limit=": "Search through data (autofill-ready, ranked results)",
+      "GET /api/search/status": "Search index status",
+      "POST /api/search/reload": "Reload search data from disk",
     },
   });
 });
@@ -74,6 +78,8 @@ app.post("/api/words/download", async (_req, res) => {
 app.get("/health", (_req, res) => {
   res.json({ status: "ok", uptime: process.uptime() });
 });
+
+app.use("/api", searchRoutes);
 
 app.use((_req, res) => {
   res.status(404).json({ error: "Not found. Hit GET /api for available endpoints." });

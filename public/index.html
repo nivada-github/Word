@@ -22,7 +22,9 @@
       --accent2: #c084fc;
       --text: #eee;
       --text2: #aaa;
+      --text3: #666;
       --radius: 16px;
+      --radius-sm: 10px;
       --safe-top: env(safe-area-inset-top, 0px);
       --safe-bottom: env(safe-area-inset-bottom, 0px);
     }
@@ -35,13 +37,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       padding: calc(20px + var(--safe-top)) 16px calc(20px + var(--safe-bottom));
       -webkit-font-smoothing: antialiased;
     }
 
     header {
       text-align: center;
+      margin-top: min(12vh, 80px);
+      margin-bottom: 40px;
     }
 
     header h1 {
@@ -57,12 +60,427 @@
       font-size: 1rem;
       margin-top: 8px;
     }
+
+    .search-container {
+      width: 100%;
+      max-width: 520px;
+      position: relative;
+    }
+
+    .search-input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      width: 20px;
+      height: 20px;
+      color: var(--text3);
+      pointer-events: none;
+      transition: color 0.2s;
+    }
+
+    .search-input-wrap:focus-within .search-icon {
+      color: var(--accent);
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 44px 14px 48px;
+      font-size: 1rem;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--surface);
+      border: 2px solid transparent;
+      border-radius: var(--radius);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-input::placeholder {
+      color: var(--text3);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(124, 92, 252, 0.15);
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 12px;
+      width: 28px;
+      height: 28px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: var(--surface2);
+      border: none;
+      border-radius: 50%;
+      color: var(--text2);
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .search-clear:hover {
+      background: var(--accent);
+      color: white;
+    }
+
+    .search-clear.visible {
+      display: flex;
+    }
+
+    .dropdown {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border: 1px solid var(--surface2);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+      z-index: 10;
+      display: none;
+    }
+
+    .dropdown.open {
+      display: block;
+    }
+
+    .dropdown-item {
+      padding: 10px 16px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.1s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item.active {
+      background: var(--surface2);
+    }
+
+    .dropdown-item .match-icon {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+      color: var(--accent2);
+      opacity: 0.6;
+    }
+
+    .dropdown-item .word {
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .dropdown-item .word mark {
+      color: var(--accent2);
+      background: none;
+      font-weight: 600;
+    }
+
+    .dropdown-footer {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      color: var(--text3);
+      border-top: 1px solid var(--surface2);
+      text-align: center;
+    }
+
+    .dropdown-empty {
+      padding: 20px 16px;
+      text-align: center;
+      color: var(--text3);
+      font-size: 0.9rem;
+    }
+
+    .selected-word {
+      margin-top: 24px;
+      padding: 16px 24px;
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      border-left: 3px solid var(--accent);
+      font-size: 1.1rem;
+      display: none;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 520px;
+      animation: slideUp 0.2s ease-out;
+    }
+
+    .selected-word.visible {
+      display: flex;
+    }
+
+    .selected-word .label {
+      color: var(--text2);
+      font-size: 0.85rem;
+    }
+
+    .selected-word .value {
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .spinner {
+      position: absolute;
+      right: 14px;
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--surface2);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      display: none;
+    }
+
+    .spinner.visible {
+      display: block;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 6px;
+    }
+
+    .status-dot.ok { background: #4ade80; }
+    .status-dot.err { background: #f87171; }
   </style>
 </head>
 <body>
   <header>
     <h1>Word Vortex</h1>
-    <p>coming soon</p>
+    <p>Search 370k+ English words</p>
   </header>
+
+  <div class="search-container">
+    <div class="search-input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input
+        class="search-input"
+        id="searchInput"
+        type="text"
+        placeholder="Type a word..."
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <div class="spinner" id="spinner"></div>
+      <button class="search-clear" id="clearBtn" aria-label="Clear">&#x2715;</button>
+    </div>
+    <div class="dropdown" id="dropdown" role="listbox"></div>
+  </div>
+
+  <div class="selected-word" id="selectedWord">
+    <span class="label">Selected:</span>
+    <span class="value" id="selectedValue"></span>
+  </div>
+
+  <script>
+    const input = document.getElementById("searchInput");
+    const dropdown = document.getElementById("dropdown");
+    const clearBtn = document.getElementById("clearBtn");
+    const spinner = document.getElementById("spinner");
+    const selectedWord = document.getElementById("selectedWord");
+    const selectedValue = document.getElementById("selectedValue");
+
+    let debounceTimer = null;
+    let activeIndex = -1;
+    let currentResults = [];
+    let abortController = null;
+
+    input.addEventListener("input", () => {
+      const q = input.value.trim();
+      clearBtn.classList.toggle("visible", q.length > 0);
+
+      clearTimeout(debounceTimer);
+
+      if (q.length === 0) {
+        closeDropdown();
+        return;
+      }
+
+      debounceTimer = setTimeout(() => fetchResults(q), 150);
+    });
+
+    input.addEventListener("keydown", (e) => {
+      if (!dropdown.classList.contains("open")) return;
+
+      const items = dropdown.querySelectorAll(".dropdown-item");
+
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        activeIndex = Math.min(activeIndex + 1, items.length - 1);
+        updateActive(items);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        activeIndex = Math.max(activeIndex - 1, 0);
+        updateActive(items);
+      } else if (e.key === "Enter" && activeIndex >= 0) {
+        e.preventDefault();
+        selectWord(currentResults[activeIndex]);
+      } else if (e.key === "Escape") {
+        closeDropdown();
+      }
+    });
+
+    clearBtn.addEventListener("click", () => {
+      input.value = "";
+      clearBtn.classList.remove("visible");
+      closeDropdown();
+      selectedWord.classList.remove("visible");
+      input.focus();
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".search-container")) {
+        closeDropdown();
+      }
+    });
+
+    input.addEventListener("focus", () => {
+      if (currentResults.length > 0 && input.value.trim()) {
+        dropdown.classList.add("open");
+      }
+    });
+
+    async function fetchResults(query) {
+      if (abortController) abortController.abort();
+      abortController = new AbortController();
+
+      spinner.classList.add("visible");
+      clearBtn.classList.toggle("visible", !spinner.classList.contains("visible"));
+
+      try {
+        const res = await fetch(
+          `/api/search?q=${encodeURIComponent(query)}&limit=10`,
+          { signal: abortController.signal }
+        );
+        const data = await res.json();
+
+        if (!res.ok) {
+          showEmpty(data.error || "Something went wrong");
+          return;
+        }
+
+        currentResults = data.results;
+        activeIndex = -1;
+        renderResults(data.results, data.total, query);
+      } catch (err) {
+        if (err.name !== "AbortError") {
+          showEmpty("Could not reach server");
+        }
+      } finally {
+        spinner.classList.remove("visible");
+        clearBtn.classList.toggle("visible", input.value.trim().length > 0);
+      }
+    }
+
+    function renderResults(results, total, query) {
+      if (results.length === 0) {
+        showEmpty(`No results for "${query}"`);
+        return;
+      }
+
+      let html = "";
+      results.forEach((word, i) => {
+        const highlighted = highlightMatch(String(word), query);
+        html += `<div class="dropdown-item" role="option" data-index="${i}">
+          <svg class="match-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          <span class="word">${highlighted}</span>
+        </div>`;
+      });
+
+      if (total > results.length) {
+        html += `<div class="dropdown-footer">${total.toLocaleString()} total matches</div>`;
+      }
+
+      dropdown.innerHTML = html;
+      dropdown.classList.add("open");
+
+      dropdown.querySelectorAll(".dropdown-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          selectWord(currentResults[parseInt(el.dataset.index)]);
+        });
+        el.addEventListener("mouseenter", () => {
+          activeIndex = parseInt(el.dataset.index);
+          updateActive(dropdown.querySelectorAll(".dropdown-item"));
+        });
+      });
+    }
+
+    function highlightMatch(word, query) {
+      const lower = word.toLowerCase();
+      const q = query.toLowerCase();
+      const idx = lower.indexOf(q);
+      if (idx === -1) return escapeHtml(word);
+
+      const before = word.slice(0, idx);
+      const match = word.slice(idx, idx + q.length);
+      const after = word.slice(idx + q.length);
+      return `${escapeHtml(before)}<mark>${escapeHtml(match)}</mark>${escapeHtml(after)}`;
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement("div");
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function showEmpty(message) {
+      dropdown.innerHTML = `<div class="dropdown-empty">${escapeHtml(message)}</div>`;
+      dropdown.classList.add("open");
+      currentResults = [];
+      activeIndex = -1;
+    }
+
+    function selectWord(word) {
+      input.value = String(word);
+      clearBtn.classList.add("visible");
+      closeDropdown();
+      selectedValue.textContent = String(word);
+      selectedWord.classList.add("visible");
+    }
+
+    function closeDropdown() {
+      dropdown.classList.remove("open");
+      activeIndex = -1;
+    }
+
+    function updateActive(items) {
+      items.forEach((el, i) => {
+        el.classList.toggle("active", i === activeIndex);
+        if (i === activeIndex) el.scrollIntoView({ block: "nearest" });
+      });
+    }
+  </script>
 </body>
 </html>
