@@ -1,0 +1,2379 @@
+{
+  "meta": {
+    "name": "lookuptable",
+    "description": "Maps words from words.json to their true root word in root_words.json. Each word is honored by its original meaning — what the word itself means by its own history, not what people have reinterpreted it to mean over time. The root field references a root entry in root_words.json by its 'root' key.",
+    "version": "1.0.0",
+    "words_source": "data/words.json",
+    "roots_source": "data/root_words.json"
+  },
+  "mappings": {
+    "abandon": {
+      "root": "ba",
+      "true_meaning": "to put under someone else's control — to release one's being into another's power"
+    },
+    "able": {
+      "root": "bhr",
+      "true_meaning": "having the power to carry, to bear a task through to completion"
+    },
+    "about": {
+      "root": "vrt",
+      "true_meaning": "on the outside of, around — turning around something"
+    },
+    "above": {
+      "root": "pa",
+      "true_meaning": "over, upward from — from the opening upward"
+    },
+    "absolute": {
+      "root": "sol",
+      "true_meaning": "loosened from all else, complete in itself, whole and unbound"
+    },
+    "absorb": {
+      "root": "aq",
+      "true_meaning": "to swallow up, to drink in, to take in as water into earth"
+    },
+    "accord": {
+      "root": "cor",
+      "true_meaning": "to bring heart to heart, to be of one heart"
+    },
+    "ache": {
+      "root": "ka",
+      "true_meaning": "a sustained pain, the body's vital force signaling disturbance"
+    },
+    "acknowledge": {
+      "root": "rn",
+      "true_meaning": "to recognize the name and nature of something, to admit knowing"
+    },
+    "acre": {
+      "root": "ter",
+      "true_meaning": "a field, open land, a measure of earth"
+    },
+    "act": {
+      "root": "yod",
+      "true_meaning": "to do, to drive, to set in motion by the hand of agency"
+    },
+    "add": {
+      "root": "syn",
+      "true_meaning": "to put together, to join one thing to another"
+    },
+    "afraid": {
+      "root": "frac",
+      "true_meaning": "broken peace — deprived of peace, the state of having one's calm fractured"
+    },
+    "age": {
+      "root": "teth",
+      "true_meaning": "a span of time, a turning of the wheel of years"
+    },
+    "agree": {
+      "root": "cor",
+      "true_meaning": "to be pleasing to, to bring hearts into harmony"
+    },
+    "air": {
+      "root": "spi",
+      "true_meaning": "the breath of the sky, the invisible substance we breathe"
+    },
+    "alert": {
+      "root": "ir",
+      "true_meaning": "on the watchtower, with eyes open, fully seeing"
+    },
+    "alive": {
+      "root": "ankh",
+      "true_meaning": "having life, in the state of living, animated by the life force"
+    },
+    "all": {
+      "root": "aleph",
+      "true_meaning": "the whole, every part, the complete totality — primal strength encompassing everything"
+    },
+    "alone": {
+      "root": "sol",
+      "true_meaning": "all-one, completely oneself, whole in solitude"
+    },
+    "alpha": {
+      "root": "aleph",
+      "true_meaning": "the first, the beginning, the ox-strength that starts all things"
+    },
+    "analogy": {
+      "root": "logos",
+      "true_meaning": "a reasoning by proportion, seeing the same pattern across different things"
+    },
+    "ancestor": {
+      "root": "pa",
+      "true_meaning": "one who goes before, the one who opened the path before you"
+    },
+    "anchor": {
+      "root": "ankh",
+      "true_meaning": "that which holds fast to life, the hook that binds to the ground"
+    },
+    "angle": {
+      "root": "ankh",
+      "true_meaning": "the bend, the meeting point of two lines — the knot where directions join"
+    },
+    "ankle": {
+      "root": "ankh",
+      "true_meaning": "the joint-knot of the foot, the living hinge that lets us walk"
+    },
+    "annotate": {
+      "root": "nod",
+      "true_meaning": "to mark a point, to tie a note to a place in the text"
+    },
+    "appeal": {
+      "root": "pul",
+      "true_meaning": "to drive toward, to push one's plea forward, to call with urgent force"
+    },
+    "appear": {
+      "root": "emer",
+      "true_meaning": "to come forth into sight, to rise out from concealment"
+    },
+    "apple": {
+      "root": "hol",
+      "true_meaning": "fruit — originally any round whole fruit, the complete offering of the tree"
+    },
+    "aqua": {
+      "root": "aq",
+      "true_meaning": "water itself, the flowing element"
+    },
+    "arc": {
+      "root": "arc",
+      "true_meaning": "a curve, a bow-shape, the path of something thrown"
+    },
+    "arch": {
+      "root": "arc",
+      "true_meaning": "a curved structure that spans and holds, the first principle of building"
+    },
+    "archetype": {
+      "root": "arc",
+      "true_meaning": "the first pattern, the original mold from which copies are made"
+    },
+    "architect": {
+      "root": "arc",
+      "true_meaning": "the chief builder, master of the first principles of structure"
+    },
+    "archive": {
+      "root": "arc",
+      "true_meaning": "the place of beginnings, where original records are kept"
+    },
+    "arctic": {
+      "root": "arc",
+      "true_meaning": "of the bear (Arktos), the northern land beneath the bear constellation"
+    },
+    "art": {
+      "root": "yod",
+      "true_meaning": "skill of the hand, the fitting together of elements with craft"
+    },
+    "aspire": {
+      "root": "spi",
+      "true_meaning": "to breathe toward, to reach upward like rising breath"
+    },
+    "awake": {
+      "root": "ir",
+      "true_meaning": "risen from sleep, with eyes open, in the state of seeing — alert, not dormant"
+    },
+    "aware": {
+      "root": "ir",
+      "true_meaning": "watchful, having one's eyes turned toward, in the act of perceiving"
+    },
+    "balance": {
+      "root": "maat",
+      "true_meaning": "having two scales equal, the state of cosmic order between opposing forces"
+    },
+    "be": {
+      "root": "ba",
+      "true_meaning": "to exist, to have being, the most fundamental state — the soul present"
+    },
+    "bear": {
+      "root": "bhr",
+      "true_meaning": "to carry, to support, to bring forth — the one who carries life and weight"
+    },
+    "beauty": {
+      "root": "nfr",
+      "true_meaning": "that which is complete, well-formed, pleasing in its wholeness"
+    },
+    "become": {
+      "root": "ba",
+      "true_meaning": "to come into being, to arrive at a new state of existence"
+    },
+    "begin": {
+      "root": "resh",
+      "true_meaning": "to open, to start upon — the head-point from which action flows"
+    },
+    "behold": {
+      "root": "he",
+      "true_meaning": "to hold in sight, to see fully — the gasp of witness through the window of awareness"
+    },
+    "being": {
+      "root": "ba",
+      "true_meaning": "the state of existing, the soul that persists through all change"
+    },
+    "believe": {
+      "root": "dhr",
+      "true_meaning": "to hold dear, to love, to trust — what you hold firm in your heart"
+    },
+    "beta": {
+      "root": "beth",
+      "true_meaning": "the second, the house — the container that follows the first breath"
+    },
+    "bind": {
+      "root": "ankh",
+      "true_meaning": "to tie together, to knot, to fasten one thing to another"
+    },
+    "birth": {
+      "root": "bhr",
+      "true_meaning": "the act of bearing forth, carrying a new life out into the world"
+    },
+    "blood": {
+      "root": "aq",
+      "true_meaning": "the life-water that flows within, the sacred inner current"
+    },
+    "bloom": {
+      "root": "gen",
+      "true_meaning": "to burst into flower, the generative moment when the bud opens"
+    },
+    "blow": {
+      "root": "spi",
+      "true_meaning": "to send forth breath, to move air with force"
+    },
+    "body": {
+      "root": "beth",
+      "true_meaning": "the house of the soul, the container of being, the dwelling of life"
+    },
+    "bone": {
+      "root": "samekh",
+      "true_meaning": "the hard inner support, the prop that holds the body upright"
+    },
+    "book": {
+      "root": "logos",
+      "true_meaning": "beech-wood tablet — where words were carved, a container of ordered knowledge"
+    },
+    "born": {
+      "root": "ba",
+      "true_meaning": "brought into being, carried forth into existence"
+    },
+    "both": {
+      "root": "beth",
+      "true_meaning": "the two together, both housed in the same statement"
+    },
+    "brain": {
+      "root": "mns",
+      "true_meaning": "the organ of the mind, the physical seat of thought and measuring"
+    },
+    "brave": {
+      "root": "cor",
+      "true_meaning": "having heart-strength, wild courage, fierce in spirit"
+    },
+    "bread": {
+      "root": "frac",
+      "true_meaning": "that which is broken — a morsel, a fragment broken off to share"
+    },
+    "break": {
+      "root": "frac",
+      "true_meaning": "to crack apart, to fracture, to shatter into pieces"
+    },
+    "breath": {
+      "root": "spi",
+      "true_meaning": "the air drawn in and released, the spirit made physical, the sign of life"
+    },
+    "bridge": {
+      "root": "gimel",
+      "true_meaning": "the structure that carries across, the beam laid over the gap"
+    },
+    "bright": {
+      "root": "lux",
+      "true_meaning": "shining, full of light, luminous"
+    },
+    "bring": {
+      "root": "bhr",
+      "true_meaning": "to carry toward, to bear something to someone"
+    },
+    "brother": {
+      "root": "bhr",
+      "true_meaning": "one who bears the same origin, carried from the same source"
+    },
+    "build": {
+      "root": "beth",
+      "true_meaning": "to construct a dwelling, to make a house, to establish a structure"
+    },
+    "burden": {
+      "root": "bhr",
+      "true_meaning": "that which is carried, a heavy load borne on the back"
+    },
+    "burn": {
+      "root": "shin",
+      "true_meaning": "to be consumed by fire, to transform through flame"
+    },
+    "call": {
+      "root": "ka",
+      "true_meaning": "to cry out, to summon the vital force, to invoke by name"
+    },
+    "calm": {
+      "root": "maat",
+      "true_meaning": "the heat of the day spent resting — stillness, balance, ordered peace"
+    },
+    "camel": {
+      "root": "gimel",
+      "true_meaning": "the carrier across deserts, the bridge between oases"
+    },
+    "candle": {
+      "root": "lux",
+      "true_meaning": "the shining one, a stick that gives light, from the act of glowing"
+    },
+    "cap": {
+      "root": "kaph",
+      "true_meaning": "a covering for the head, a palm-like dome placed over"
+    },
+    "cardiac": {
+      "root": "cor",
+      "true_meaning": "of the heart, belonging to the heart"
+    },
+    "care": {
+      "root": "ka",
+      "true_meaning": "to grieve, to feel sorrow for — the vital force turned toward another's suffering"
+    },
+    "carry": {
+      "root": "gimel",
+      "true_meaning": "to bear from one place to another, to transport across distance"
+    },
+    "catch": {
+      "root": "cheth",
+      "true_meaning": "to seize, to chase and capture, to enclose in one's grasp"
+    },
+    "cause": {
+      "root": "ka",
+      "true_meaning": "that which brings about, the animating force behind an event"
+    },
+    "chain": {
+      "root": "cheth",
+      "true_meaning": "a linked enclosure, connected rings that bind and fence"
+    },
+    "change": {
+      "root": "khpr",
+      "true_meaning": "to exchange, to transform, to become other than what was — the scarab's becoming"
+    },
+    "chapter": {
+      "root": "khpr",
+      "true_meaning": "a heading, a division — each chapter a new stage of becoming"
+    },
+    "child": {
+      "root": "gen",
+      "true_meaning": "offspring, the generated one, fruit of the womb"
+    },
+    "circle": {
+      "root": "qoph",
+      "true_meaning": "the complete round, the line that returns to where it began"
+    },
+    "clean": {
+      "root": "lux",
+      "true_meaning": "bright, clear, pure, shining — free of what dims or darkens"
+    },
+    "clear": {
+      "root": "lux",
+      "true_meaning": "bright, transparent, full of light, unobstructed to vision"
+    },
+    "climb": {
+      "root": "djd",
+      "true_meaning": "to ascend by clinging, to rise upward with effort toward stability"
+    },
+    "close": {
+      "root": "cheth",
+      "true_meaning": "to shut, to enclose, to bring the fence together"
+    },
+    "cold": {
+      "root": "aq",
+      "true_meaning": "lacking warmth, the chill of frozen water, the ice-state"
+    },
+    "come": {
+      "root": "gimel",
+      "true_meaning": "to move toward, to arrive, to journey hither"
+    },
+    "comfort": {
+      "root": "samekh",
+      "true_meaning": "to strengthen greatly, to give strong support, to prop up the suffering"
+    },
+    "compel": {
+      "root": "pul",
+      "true_meaning": "to drive together, to push toward action, to force forward"
+    },
+    "complete": {
+      "root": "hol",
+      "true_meaning": "filled up entirely, whole, lacking nothing — all parts present"
+    },
+    "connect": {
+      "root": "nod",
+      "true_meaning": "to knot together, to fasten one thing to another at a junction point"
+    },
+    "conscience": {
+      "root": "tsade",
+      "true_meaning": "inner knowing, the hook that catches you when you stray from right"
+    },
+    "console": {
+      "root": "sol",
+      "true_meaning": "to bring wholeness to the grieving, to make the broken soul sole again"
+    },
+    "conspire": {
+      "root": "spi",
+      "true_meaning": "to breathe together, to share breath in secret agreement"
+    },
+    "contain": {
+      "root": "cheth",
+      "true_meaning": "to hold within boundaries, to keep fenced inside"
+    },
+    "convert": {
+      "root": "vrt",
+      "true_meaning": "to turn together, to revolve toward a new direction or belief"
+    },
+    "core": {
+      "root": "cor",
+      "true_meaning": "the heart of a thing, the innermost center"
+    },
+    "correct": {
+      "root": "reg",
+      "true_meaning": "made straight, set right, aligned with the true direction"
+    },
+    "courage": {
+      "root": "cor",
+      "true_meaning": "heart-quality, the strength that comes from the heart, acting from the core"
+    },
+    "craft": {
+      "root": "yod",
+      "true_meaning": "strength of hand, skill, the power to make with agency"
+    },
+    "create": {
+      "root": "khpr",
+      "true_meaning": "to bring forth, to cause to grow, to transform potential into form"
+    },
+    "cup": {
+      "root": "kaph",
+      "true_meaning": "a hollow vessel, shaped like an open palm, that receives and holds"
+    },
+    "cure": {
+      "root": "wdj",
+      "true_meaning": "to restore to soundness, to make whole again, to heal"
+    },
+    "current": {
+      "root": "aq",
+      "true_meaning": "that which runs, the flowing stream, water in motion"
+    },
+    "cycle": {
+      "root": "qoph",
+      "true_meaning": "a wheel, a circle of returning, the journey that comes back to its start"
+    },
+    "dance": {
+      "root": "vrt",
+      "true_meaning": "to turn, to revolve the body rhythmically, movement in spirals"
+    },
+    "dark": {
+      "root": "cheth",
+      "true_meaning": "hidden, concealed, enclosed away from light"
+    },
+    "dawn": {
+      "root": "ra",
+      "true_meaning": "the first light, the shining that breaks the dark, radiance returning"
+    },
+    "day": {
+      "root": "ra",
+      "true_meaning": "the burning time, the period of light, when radiance rules"
+    },
+    "deal": {
+      "root": "daleth",
+      "true_meaning": "to divide, to distribute, to portion out through the door of exchange"
+    },
+    "death": {
+      "root": "tav",
+      "true_meaning": "the final mark, the completion, the signing of life's end"
+    },
+    "deep": {
+      "root": "nu",
+      "true_meaning": "reaching far down, profound — into the primordial waters, the abyss"
+    },
+    "delta": {
+      "root": "daleth",
+      "true_meaning": "the door-shaped letter, the triangular mouth where a river divides"
+    },
+    "dialogue": {
+      "root": "logos",
+      "true_meaning": "word passed between two, reason exchanged across speakers"
+    },
+    "dimension": {
+      "root": "mns",
+      "true_meaning": "a measuring out, the mind's act of defining extent"
+    },
+    "direct": {
+      "root": "reg",
+      "true_meaning": "to set straight, to guide in a right line, to rule the course"
+    },
+    "discover": {
+      "root": "ir",
+      "true_meaning": "to uncover, to remove the veil and see what was hidden"
+    },
+    "divide": {
+      "root": "daleth",
+      "true_meaning": "to separate into parts, to make a door between what was one"
+    },
+    "door": {
+      "root": "daleth",
+      "true_meaning": "the gateway, the threshold between inside and outside, the opening"
+    },
+    "dream": {
+      "root": "ir",
+      "true_meaning": "a vision in sleep, the eye of the mind seeing when the body's eyes close"
+    },
+    "drink": {
+      "root": "aq",
+      "true_meaning": "to draw water in, to pull liquid into the body"
+    },
+    "drive": {
+      "root": "pul",
+      "true_meaning": "to push forward, to compel movement, to propel"
+    },
+    "dust": {
+      "root": "ter",
+      "true_meaning": "fine earth, ground-matter reduced to powder, the smallest grains of ground"
+    },
+    "duty": {
+      "root": "dhr",
+      "true_meaning": "that which is owed, what one is held firm to do — the dharma of obligation"
+    },
+    "dwell": {
+      "root": "beth",
+      "true_meaning": "to remain in a house, to linger in a dwelling, to inhabit"
+    },
+    "ear": {
+      "root": "sdm",
+      "true_meaning": "the organ of hearing, the body's instrument of listening and receiving sound"
+    },
+    "earth": {
+      "root": "ter",
+      "true_meaning": "the ground, the world of soil and stone, the solid foundation beneath all"
+    },
+    "emerge": {
+      "root": "emer",
+      "true_meaning": "to rise out from, to come forth from concealment into visibility"
+    },
+    "emergency": {
+      "root": "emer",
+      "true_meaning": "that which rises out suddenly, an unforeseen arising that demands response"
+    },
+    "emotion": {
+      "root": "mem",
+      "true_meaning": "that which moves within — the inner waters, feelings that flow like currents"
+    },
+    "enchant": {
+      "root": "hk",
+      "true_meaning": "to sing a spell into, to cast words of power that reshape perception"
+    },
+    "endure": {
+      "root": "dhr",
+      "true_meaning": "to hold firm, to harden against difficulty, to persist without breaking"
+    },
+    "energy": {
+      "root": "ka",
+      "true_meaning": "the vital force at work, the animating power within action"
+    },
+    "enjoy": {
+      "root": "nfr",
+      "true_meaning": "to take pleasure in, to hold beauty and goodness within oneself"
+    },
+    "enter": {
+      "root": "ter",
+      "true_meaning": "to go into, to cross the ground of a threshold, to step within"
+    },
+    "equal": {
+      "root": "maat",
+      "true_meaning": "level, balanced, the same on both sides of the scale"
+    },
+    "erect": {
+      "root": "reg",
+      "true_meaning": "set straight up, directed upward, aligned with the vertical"
+    },
+    "essence": {
+      "root": "sat",
+      "true_meaning": "that which truly is, the being-nature of a thing, its realness"
+    },
+    "eternal": {
+      "root": "teth",
+      "true_meaning": "of unending time, the wheel that turns forever, outside the cycle of ending"
+    },
+    "evident": {
+      "root": "vid",
+      "true_meaning": "that which is seen clearly, visible to knowledge, plain to sight"
+    },
+    "evolve": {
+      "root": "vrt",
+      "true_meaning": "to unroll, to turn outward, to unfold from within over time"
+    },
+    "exist": {
+      "root": "ba",
+      "true_meaning": "to stand forth, to step out into being, to have presence in the world"
+    },
+    "expire": {
+      "root": "spi",
+      "true_meaning": "to breathe out for the last time, to let the spirit depart"
+    },
+    "explore": {
+      "root": "pa",
+      "true_meaning": "to cry out as one goes — to open the way forward by seeking"
+    },
+    "external": {
+      "root": "ter",
+      "true_meaning": "on the outside, beyond the ground of the interior"
+    },
+    "eye": {
+      "root": "ir",
+      "true_meaning": "the organ of sight, the seer, the maker of vision — to see is to make real"
+    },
+    "fabric": {
+      "root": "web",
+      "true_meaning": "that which is made by weaving, the woven structure of interconnected threads"
+    },
+    "face": {
+      "root": "ir",
+      "true_meaning": "the front of the head, what is seen first, the surface one shows to the world"
+    },
+    "fact": {
+      "root": "yod",
+      "true_meaning": "a thing done, a deed, something made actual by action"
+    },
+    "fair": {
+      "root": "nfr",
+      "true_meaning": "beautiful, pleasing, just, light-complexioned — that which is complete in its goodness"
+    },
+    "faith": {
+      "root": "dhr",
+      "true_meaning": "firm trust, to hold fast to conviction, loyalty that does not break"
+    },
+    "fall": {
+      "root": "pul",
+      "true_meaning": "to drop down, to be pulled by the earth, to descend"
+    },
+    "family": {
+      "root": "om",
+      "true_meaning": "the household, all who dwell under one vibration, the home-group"
+    },
+    "far": {
+      "root": "pa",
+      "true_meaning": "at a great opening, far from where one stands, distant across the path"
+    },
+    "fast": {
+      "root": "djd",
+      "true_meaning": "firm, fixed, steadfast — originally meaning immovable, not quick"
+    },
+    "father": {
+      "root": "pa",
+      "true_meaning": "the one who opens the way, protector, the expansive principle that sends forth"
+    },
+    "fear": {
+      "root": "frac",
+      "true_meaning": "to try, to risk, peril — the fracturing of calm before danger"
+    },
+    "feel": {
+      "root": "sdm",
+      "true_meaning": "to perceive through touch, to sense, to receive awareness through the body"
+    },
+    "fertile": {
+      "root": "bhr",
+      "true_meaning": "bearing abundantly, carrying much fruit, able to bring forth life"
+    },
+    "fill": {
+      "root": "hol",
+      "true_meaning": "to make full, to complete, to bring to wholeness"
+    },
+    "find": {
+      "root": "pa",
+      "true_meaning": "to come upon, what one encounters while walking the path"
+    },
+    "fine": {
+      "root": "nfr",
+      "true_meaning": "finished, perfected, brought to completion, of excellent quality"
+    },
+    "finish": {
+      "root": "nfr",
+      "true_meaning": "to bring to an end, to perfect, to complete the making"
+    },
+    "fire": {
+      "root": "shin",
+      "true_meaning": "flame, the consuming transformer, that which devours and purifies"
+    },
+    "firm": {
+      "root": "dhr",
+      "true_meaning": "held fast, fixed, solid — that which holds its ground and does not yield"
+    },
+    "fish": {
+      "root": "nun",
+      "true_meaning": "the creature that swims in the deep, life moving through hidden waters"
+    },
+    "flame": {
+      "root": "shin",
+      "true_meaning": "the visible body of fire, burning light that devours and transforms"
+    },
+    "flesh": {
+      "root": "beth",
+      "true_meaning": "the soft substance of the body, the material house of the living spirit"
+    },
+    "float": {
+      "root": "aq",
+      "true_meaning": "to rest upon water, to be carried by the flow without sinking"
+    },
+    "flood": {
+      "root": "aq",
+      "true_meaning": "water overflowing its bounds, the great flow that covers the land"
+    },
+    "floor": {
+      "root": "ter",
+      "true_meaning": "the flat ground surface inside, the earth-level of a dwelling"
+    },
+    "flow": {
+      "root": "aq",
+      "true_meaning": "to move as water moves, to stream continuously forward"
+    },
+    "fly": {
+      "root": "pa",
+      "true_meaning": "to move through air, to go forth on wings, to open into sky"
+    },
+    "follow": {
+      "root": "pa",
+      "true_meaning": "to go along the path behind another, to accompany on the way"
+    },
+    "food": {
+      "root": "ma",
+      "true_meaning": "that which nourishes, the sustaining matter, what the mother-earth provides"
+    },
+    "foot": {
+      "root": "pa",
+      "true_meaning": "the lowest part that treads the path, the body's contact with the way"
+    },
+    "force": {
+      "root": "pul",
+      "true_meaning": "strength, might, the push that compels movement"
+    },
+    "forest": {
+      "root": "ter",
+      "true_meaning": "the outside woodland, the wild terrain beyond the fenced land"
+    },
+    "forget": {
+      "root": "mns",
+      "true_meaning": "to lose one's mental grip, to fail to hold in the measuring mind"
+    },
+    "forgive": {
+      "root": "kaph",
+      "true_meaning": "to give completely, to release the debt from one's palm, to let go entirely"
+    },
+    "form": {
+      "root": "khpr",
+      "true_meaning": "shape, the visible pattern of becoming, that which transformation produces"
+    },
+    "foundation": {
+      "root": "dhr",
+      "true_meaning": "that which holds firm beneath, the base that sustains all above it"
+    },
+    "fraction": {
+      "root": "frac",
+      "true_meaning": "a breaking, a part broken off from the whole"
+    },
+    "fracture": {
+      "root": "frac",
+      "true_meaning": "a break, the act of cracking, the line where wholeness splits"
+    },
+    "fragile": {
+      "root": "frac",
+      "true_meaning": "easily broken, liable to fracture, delicate in structure"
+    },
+    "fragment": {
+      "root": "frac",
+      "true_meaning": "a piece broken off, a shard, a part separated from the whole"
+    },
+    "free": {
+      "root": "ka",
+      "true_meaning": "beloved, dear — the free were the loved kin, not the enslaved strangers"
+    },
+    "freeze": {
+      "root": "aq",
+      "true_meaning": "water becoming solid, the flow stopped, the liquid bound to stillness"
+    },
+    "frost": {
+      "root": "aq",
+      "true_meaning": "frozen moisture, ice-crystals formed from water in the cold air"
+    },
+    "fruit": {
+      "root": "gen",
+      "true_meaning": "the produce of a plant, what is generated, the offspring of the tree"
+    },
+    "full": {
+      "root": "hol",
+      "true_meaning": "complete, filled to capacity, whole and lacking nothing"
+    },
+    "furnace": {
+      "root": "shin",
+      "true_meaning": "an enclosed fire, the chamber where flame consumes and transforms"
+    },
+    "game": {
+      "root": "gimel",
+      "true_meaning": "sport, play, amusement — the journey through structured challenge"
+    },
+    "gamma": {
+      "root": "gimel",
+      "true_meaning": "the third letter, from the camel — the carrier across"
+    },
+    "gate": {
+      "root": "daleth",
+      "true_meaning": "an opening in a fence or wall, the door of a yard"
+    },
+    "gather": {
+      "root": "syn",
+      "true_meaning": "to bring together, to collect into one, to unite the scattered"
+    },
+    "gene": {
+      "root": "gen",
+      "true_meaning": "the unit of birth, the seed of becoming, the code of generation"
+    },
+    "generate": {
+      "root": "gen",
+      "true_meaning": "to bring into being, to birth, to produce offspring or new things"
+    },
+    "genesis": {
+      "root": "gen",
+      "true_meaning": "origin, birth, the coming-into-being, the first generation"
+    },
+    "genius": {
+      "root": "gen",
+      "true_meaning": "inborn spirit, the guardian nature born with each person, natural capacity"
+    },
+    "genre": {
+      "root": "gen",
+      "true_meaning": "kind, type, a family of similar works sharing common birth-traits"
+    },
+    "gentle": {
+      "root": "gen",
+      "true_meaning": "well-born, noble by nature, soft in manner because secure in origin"
+    },
+    "genuine": {
+      "root": "gen",
+      "true_meaning": "natural, authentic, as originally born — not falsified or corrupted"
+    },
+    "give": {
+      "root": "kaph",
+      "true_meaning": "to hand over, to offer from the open palm, to release into another's grasp"
+    },
+    "glass": {
+      "root": "lux",
+      "true_meaning": "the gleaming substance, that which shines and lets light through"
+    },
+    "glow": {
+      "root": "lux",
+      "true_meaning": "to shine with steady light, to emit warm radiance without flame"
+    },
+    "go": {
+      "root": "gimel",
+      "true_meaning": "to move, to journey, to carry oneself from one place toward another"
+    },
+    "god": {
+      "root": "ka",
+      "true_meaning": "the invoked one, called upon through offering — the vital force that animates all"
+    },
+    "gold": {
+      "root": "lux",
+      "true_meaning": "the shining metal, that which gleams with its own light"
+    },
+    "good": {
+      "root": "nfr",
+      "true_meaning": "fitting, suitable, proper, gathered together rightly — beautiful in its rightness"
+    },
+    "grasp": {
+      "root": "kaph",
+      "true_meaning": "to seize with the palm, to grip, to take hold firmly with the hand"
+    },
+    "ground": {
+      "root": "ter",
+      "true_meaning": "the bottom, the earth surface, the foundation of all that stands"
+    },
+    "grow": {
+      "root": "gen",
+      "true_meaning": "to increase, to become more, to develop from seed toward fullness"
+    },
+    "guard": {
+      "root": "pr",
+      "true_meaning": "to watch over, to protect, to keep the house safe"
+    },
+    "guide": {
+      "root": "lamed",
+      "true_meaning": "to lead, to show the way, to goad gently toward the right path"
+    },
+    "hack": {
+      "root": "hk",
+      "true_meaning": "to cut roughly, to break into — a raw application of force to reshape"
+    },
+    "hale": {
+      "root": "hol",
+      "true_meaning": "whole, sound, healthy, robust — the body complete and unbroken"
+    },
+    "hand": {
+      "root": "yod",
+      "true_meaning": "the organ of doing, the instrument of agency, the grasper and maker"
+    },
+    "harbor": {
+      "root": "pr",
+      "true_meaning": "shelter for ships, the house of the fleet, a protected enclosure"
+    },
+    "harm": {
+      "root": "frac",
+      "true_meaning": "injury, damage, the breaking of well-being"
+    },
+    "harvest": {
+      "root": "ma",
+      "true_meaning": "the gathering of what the earth-mother produced, the reaping of matured growth"
+    },
+    "heal": {
+      "root": "hol",
+      "true_meaning": "to make whole, to restore completeness, to close what was broken"
+    },
+    "health": {
+      "root": "hol",
+      "true_meaning": "the state of being whole, completeness of body and spirit"
+    },
+    "hear": {
+      "root": "sdm",
+      "true_meaning": "to perceive with the ear, to receive sound, to listen and understand"
+    },
+    "heart": {
+      "root": "cor",
+      "true_meaning": "the pumping center, the seat of courage and feeling, the core of a person"
+    },
+    "heat": {
+      "root": "shin",
+      "true_meaning": "warmth, the energy of fire, the tooth of flame felt without contact"
+    },
+    "heaven": {
+      "root": "he",
+      "true_meaning": "the high realm, the sky-window through which the divine is glimpsed"
+    },
+    "hedge": {
+      "root": "cheth",
+      "true_meaning": "a living fence, a row of bushes forming an enclosure, a boundary of growth"
+    },
+    "heed": {
+      "root": "sdm",
+      "true_meaning": "to pay attention, to listen carefully, to guard with awareness"
+    },
+    "help": {
+      "root": "samekh",
+      "true_meaning": "to support, to prop up, to sustain someone who is falling"
+    },
+    "here": {
+      "root": "he",
+      "true_meaning": "in this place, present, where one stands and beholds"
+    },
+    "hero": {
+      "root": "pr",
+      "true_meaning": "protector, the one who goes forth to guard, who stands before danger"
+    },
+    "hex": {
+      "root": "hk",
+      "true_meaning": "a spell, a curse, a word of magical power directed against someone"
+    },
+    "hold": {
+      "root": "dhr",
+      "true_meaning": "to keep firm, to grasp and not release, to sustain in place"
+    },
+    "hole": {
+      "root": "daleth",
+      "true_meaning": "an opening, a hollow, a gap in a surface — a door into the hidden"
+    },
+    "holistic": {
+      "root": "hol",
+      "true_meaning": "considering the whole, seeing all parts as one complete unity"
+    },
+    "holy": {
+      "root": "hol",
+      "true_meaning": "whole, unbroken, sacred because complete — the wholeness that is divine"
+    },
+    "home": {
+      "root": "om",
+      "true_meaning": "the place of rest, the dwelling of belonging, where one's vibration resonates"
+    },
+    "honest": {
+      "root": "sat",
+      "true_meaning": "honorable, worthy of respect — rooted in what truly is"
+    },
+    "honor": {
+      "root": "maat",
+      "true_meaning": "esteem, dignity, worth — given to those who embody right order"
+    },
+    "hope": {
+      "root": "he",
+      "true_meaning": "to leap forward in expectation, to breathe toward what may come"
+    },
+    "horizon": {
+      "root": "arc",
+      "true_meaning": "the bounding circle, the arc where earth and sky meet"
+    },
+    "house": {
+      "root": "beth",
+      "true_meaning": "a dwelling, a container for living, the sheltering structure"
+    },
+    "human": {
+      "root": "ter",
+      "true_meaning": "earthling, of the earth, one made from the ground (from humus — soil)"
+    },
+    "ice": {
+      "root": "aq",
+      "true_meaning": "frozen water, the still form of flow, water made solid by cold"
+    },
+    "idea": {
+      "root": "ir",
+      "true_meaning": "a form seen by the mind's eye, a pattern perceived inwardly"
+    },
+    "ignite": {
+      "root": "shin",
+      "true_meaning": "to set fire to, to bring flame into being, to kindle"
+    },
+    "illuminate": {
+      "root": "lux",
+      "true_meaning": "to fill with light, to make visible, to shine upon"
+    },
+    "illustrate": {
+      "root": "lux",
+      "true_meaning": "to light up, to make clear by shining light on, to reveal through images"
+    },
+    "image": {
+      "root": "ir",
+      "true_meaning": "a likeness, a copy of what the eye sees, a representation of vision"
+    },
+    "imagine": {
+      "root": "ir",
+      "true_meaning": "to form images in the mind's eye, to see what is not yet visible"
+    },
+    "impulse": {
+      "root": "pul",
+      "true_meaning": "the push from within, the sudden drive to action before thought intervenes"
+    },
+    "incantation": {
+      "root": "hk",
+      "true_meaning": "a chanting of magical words, singing power into reality"
+    },
+    "inspire": {
+      "root": "spi",
+      "true_meaning": "to breathe spirit into, to fill with the breath of life or vision"
+    },
+    "intention": {
+      "root": "yod",
+      "true_meaning": "the stretching of the hand toward a purpose, the direction of agency"
+    },
+    "inter": {
+      "root": "ter",
+      "true_meaning": "between, among, within the earth — to inter is to place in the ground"
+    },
+    "iota": {
+      "root": "yod",
+      "true_meaning": "the smallest letter, the tiniest mark of the hand"
+    },
+    "iris": {
+      "root": "ir",
+      "true_meaning": "rainbow, the colored circle of the eye that controls seeing"
+    },
+    "island": {
+      "root": "aq",
+      "true_meaning": "water-land, ground surrounded by water, earth in the midst of flow"
+    },
+    "join": {
+      "root": "syn",
+      "true_meaning": "to bring together, to yoke, to unite separate things into one"
+    },
+    "jot": {
+      "root": "yod",
+      "true_meaning": "the smallest mark, a quick stroke of the hand, the tiniest written thing"
+    },
+    "journey": {
+      "root": "gimel",
+      "true_meaning": "a day's travel, the act of carrying oneself across distance"
+    },
+    "joy": {
+      "root": "nfr",
+      "true_meaning": "inner delight, the beauty of gladness, pleasure from within"
+    },
+    "judge": {
+      "root": "maat",
+      "true_meaning": "to weigh on the scales of truth, to measure against cosmic order"
+    },
+    "just": {
+      "root": "tsade",
+      "true_meaning": "righteous, upright, in accordance with what is right — caught by the hook of truth"
+    },
+    "justice": {
+      "root": "tsade",
+      "true_meaning": "righteousness enacted, the state where right action prevails, the fishhook of truth in society"
+    },
+    "keep": {
+      "root": "kaph",
+      "true_meaning": "to hold in the palm, to guard, to look after, to maintain possession"
+    },
+    "key": {
+      "root": "daleth",
+      "true_meaning": "the device that opens the door, the instrument of threshold-crossing"
+    },
+    "kin": {
+      "root": "gen",
+      "true_meaning": "family, those born of the same origin, the birth-group"
+    },
+    "kind": {
+      "root": "gen",
+      "true_meaning": "nature, type, birth-quality — one's kind is one's inborn nature"
+    },
+    "kindle": {
+      "root": "shin",
+      "true_meaning": "to set fire to, to bring flame into being, to start the burn"
+    },
+    "king": {
+      "root": "gen",
+      "true_meaning": "man of the kin, leader of the birth-group, head of the family-nation"
+    },
+    "knot": {
+      "root": "nod",
+      "true_meaning": "a tied binding, where threads meet and hold, the point of fastening"
+    },
+    "know": {
+      "root": "rn",
+      "true_meaning": "to recognize, to perceive with understanding — to know a thing's name is to have power over it"
+    },
+    "lake": {
+      "root": "aq",
+      "true_meaning": "standing water, a body of water enclosed by land"
+    },
+    "lamp": {
+      "root": "lux",
+      "true_meaning": "a vessel that gives light, a container for flame that illuminates"
+    },
+    "land": {
+      "root": "ter",
+      "true_meaning": "ground, terrain, the earth's surface, the solid place"
+    },
+    "language": {
+      "root": "logos",
+      "true_meaning": "the tongue's expression, the ordered system of words, reason made audible"
+    },
+    "law": {
+      "root": "lamed",
+      "true_meaning": "that which is laid down, the rule set by the goad of authority, what drives right conduct"
+    },
+    "lead": {
+      "root": "lamed",
+      "true_meaning": "to guide forward, to goad in the right direction, to go first on the path"
+    },
+    "leaf": {
+      "root": "gen",
+      "true_meaning": "the green growth of a tree, what the plant generates to breathe and feed"
+    },
+    "learn": {
+      "root": "lamed",
+      "true_meaning": "to follow a track of knowledge, driven by the goad of curiosity toward understanding"
+    },
+    "lecture": {
+      "root": "logos",
+      "true_meaning": "a reading, a discourse of ordered words, reason spoken to an audience"
+    },
+    "lesson": {
+      "root": "lamed",
+      "true_meaning": "a thing to be learned, the reading assigned by the teacher's goad"
+    },
+    "life": {
+      "root": "ankh",
+      "true_meaning": "the state of living, vitality, the union of body and spirit that creates existence"
+    },
+    "light": {
+      "root": "lux",
+      "true_meaning": "visible radiance, that which makes seeing possible, illumination"
+    },
+    "link": {
+      "root": "ankh",
+      "true_meaning": "a ring in a chain, a connection that binds, the knot between two things"
+    },
+    "listen": {
+      "root": "sdm",
+      "true_meaning": "to lean the ear toward, to give attention to sound, to receive with awareness"
+    },
+    "live": {
+      "root": "ankh",
+      "true_meaning": "to have life, to persist in being, to remain animated by the vital force"
+    },
+    "log": {
+      "root": "logos",
+      "true_meaning": "a record, a reckoning, the word set down to preserve account"
+    },
+    "logic": {
+      "root": "logos",
+      "true_meaning": "the art of reason, the ordered pattern of thought, the word made systematic"
+    },
+    "look": {
+      "root": "ir",
+      "true_meaning": "to direct the eye, to seek with vision, to turn one's seeing toward"
+    },
+    "love": {
+      "root": "ka",
+      "true_meaning": "to care deeply, to hold dear — the vital force directed toward another"
+    },
+    "lucid": {
+      "root": "lux",
+      "true_meaning": "full of light, clear, bright with understanding, transparent"
+    },
+    "luminous": {
+      "root": "lux",
+      "true_meaning": "emitting light, glowing, shining from within"
+    },
+    "lunar": {
+      "root": "lux",
+      "true_meaning": "of the moon, the reflected light, the gentler radiance of night"
+    },
+    "luxury": {
+      "root": "lux",
+      "true_meaning": "excess, abundance of light and splendor, sumptuous living"
+    },
+    "make": {
+      "root": "ma",
+      "true_meaning": "to fashion, to build, to shape matter into form — the mother-act of creation"
+    },
+    "man": {
+      "root": "mns",
+      "true_meaning": "a thinking being, one who has mind — originally any human person, not gendered"
+    },
+    "mark": {
+      "root": "tav",
+      "true_meaning": "a sign left, a visible trace, the scratch or stamp that identifies"
+    },
+    "match": {
+      "root": "maat",
+      "true_meaning": "an equal pairing, that which balances, things measured to be the same"
+    },
+    "material": {
+      "root": "ma",
+      "true_meaning": "of matter, the substance from which things are made, mother-stuff"
+    },
+    "math": {
+      "root": "ma",
+      "true_meaning": "the science of measuring, the mother-discipline of quantity and pattern"
+    },
+    "matrix": {
+      "root": "ma",
+      "true_meaning": "the womb, the mold, the mother-structure from which form emerges"
+    },
+    "matter": {
+      "root": "ma",
+      "true_meaning": "substance, the mother-material of which all physical things are made"
+    },
+    "mature": {
+      "root": "ma",
+      "true_meaning": "ripened, brought to fullness by the mother-principle of time"
+    },
+    "mean": {
+      "root": "mns",
+      "true_meaning": "to have in mind, to intend, to signify — what the measuring mind produces"
+    },
+    "measure": {
+      "root": "ma",
+      "true_meaning": "to determine extent, to apply the mother-principle of ordering and sizing"
+    },
+    "melt": {
+      "root": "aq",
+      "true_meaning": "to become liquid, to soften into flow, solid returning to water-state"
+    },
+    "memory": {
+      "root": "mem",
+      "true_meaning": "the mind's water, that which flows back from the past, the stream of remembered experience"
+    },
+    "mental": {
+      "root": "mns",
+      "true_meaning": "of the mind, belonging to thought, within the measuring faculty"
+    },
+    "merit": {
+      "root": "emer",
+      "true_meaning": "deserved worth, value that has emerged and been earned"
+    },
+    "metric": {
+      "root": "maat",
+      "true_meaning": "a standard of measurement, the instrument of truth-weighing"
+    },
+    "mind": {
+      "root": "mns",
+      "true_meaning": "the thinking organ, the faculty of thought, the inner measurer of reality"
+    },
+    "mirror": {
+      "root": "ir",
+      "true_meaning": "a surface that shows back what the eye sees, the wonder of reflected vision"
+    },
+    "moderate": {
+      "root": "maat",
+      "true_meaning": "kept within measure, balanced, neither excess nor deficiency — right proportion"
+    },
+    "moon": {
+      "root": "mns",
+      "true_meaning": "the measurer of time, the celestial body that marks the months"
+    },
+    "mother": {
+      "root": "ma",
+      "true_meaning": "she who bears and nourishes, the first sound, the ground of life, the matrix"
+    },
+    "mountain": {
+      "root": "ter",
+      "true_meaning": "the earth rising up, ground that stands high, the elevated terrain"
+    },
+    "mouth": {
+      "root": "pe",
+      "true_meaning": "the organ of utterance, where words are born into sound, the opening that speaks"
+    },
+    "move": {
+      "root": "mem",
+      "true_meaning": "to flow from one place to another, to be in motion like water"
+    },
+    "music": {
+      "root": "om",
+      "true_meaning": "the art of the Muses, organized vibration, sound made beautiful by pattern"
+    },
+    "mystery": {
+      "root": "cheth",
+      "true_meaning": "the hidden, the enclosed secret, that which is fenced from common knowing"
+    },
+    "name": {
+      "root": "rn",
+      "true_meaning": "the word that identifies, the utterance that creates and sustains essence"
+    },
+    "narrate": {
+      "root": "rn",
+      "true_meaning": "to tell, to make known by naming events in order, to give account"
+    },
+    "natal": {
+      "root": "nun",
+      "true_meaning": "of birth, relating to the moment of coming into life"
+    },
+    "nation": {
+      "root": "nun",
+      "true_meaning": "a birth-group, those born of the same origin, a people sharing seed"
+    },
+    "natural": {
+      "root": "nun",
+      "true_meaning": "of nature, born that way, according to the seed's own pattern of becoming"
+    },
+    "nature": {
+      "root": "nun",
+      "true_meaning": "the born-quality of a thing, its inborn character, the seed's unfolding"
+    },
+    "navigate": {
+      "root": "aq",
+      "true_meaning": "to steer through water, to find one's way across the flow"
+    },
+    "need": {
+      "root": "ka",
+      "true_meaning": "compulsion, distress, what the vital force demands for survival"
+    },
+    "nest": {
+      "root": "beth",
+      "true_meaning": "the sitting-down place, the house built by birds for their young"
+    },
+    "net": {
+      "root": "nod",
+      "true_meaning": "a mesh of knots, threads tied together at nodes to catch"
+    },
+    "new": {
+      "root": "nu",
+      "true_meaning": "fresh, recent, not yet known — just emerged from the waters of potential"
+    },
+    "nexus": {
+      "root": "nod",
+      "true_meaning": "a binding point, a center of connection where many threads meet"
+    },
+    "night": {
+      "root": "nu",
+      "true_meaning": "the dark time, the return to primordial darkness, chaos before the new dawn"
+    },
+    "nine": {
+      "root": "nun",
+      "true_meaning": "the number before completion, the last step before the cycle closes"
+    },
+    "noble": {
+      "root": "rn",
+      "true_meaning": "well-known, celebrated by name, of illustrious identity"
+    },
+    "node": {
+      "root": "nod",
+      "true_meaning": "a knot-point, where paths cross and connections gather"
+    },
+    "noon": {
+      "root": "ra",
+      "true_meaning": "the ninth hour of light — the height of the day's radiance"
+    },
+    "north": {
+      "root": "nu",
+      "true_meaning": "the left-hand side when facing the dawn — the direction of deep waters and darkness"
+    },
+    "note": {
+      "root": "rn",
+      "true_meaning": "a mark, a sign, a written name or observation set down for remembering"
+    },
+    "nothing": {
+      "root": "nu",
+      "true_meaning": "no thing, the void, the state before form — the primordial absence"
+    },
+    "noun": {
+      "root": "rn",
+      "true_meaning": "a naming word, the word-class that gives things their identity"
+    },
+    "nourish": {
+      "root": "ma",
+      "true_meaning": "to feed, to sustain with mother-substance, to nurse toward growth"
+    },
+    "novel": {
+      "root": "nu",
+      "true_meaning": "new, fresh, never before encountered — just risen from potential"
+    },
+    "nucleus": {
+      "root": "nu",
+      "true_meaning": "the kernel, the inner seed, the core from which new growth comes"
+    },
+    "nude": {
+      "root": "nu",
+      "true_meaning": "bare, uncovered, exposed — in the original state before form clothes the raw"
+    },
+    "null": {
+      "root": "nu",
+      "true_meaning": "nothing, void, not any — the chaos-state of zero, before distinction"
+    },
+    "number": {
+      "root": "mns",
+      "true_meaning": "a unit of measure, the mind's way of counting and ordering reality"
+    },
+    "nurture": {
+      "root": "ma",
+      "true_meaning": "to nourish, to mother, to feed and raise with care"
+    },
+    "observe": {
+      "root": "ayin",
+      "true_meaning": "to watch, to see from the source, to keep the eye upon"
+    },
+    "obvious": {
+      "root": "ayin",
+      "true_meaning": "in the way, plain to the eye, that which is seen immediately from the source"
+    },
+    "ocean": {
+      "root": "aq",
+      "true_meaning": "the great water, the encircling flow, the primal sea"
+    },
+    "offer": {
+      "root": "bhr",
+      "true_meaning": "to carry toward, to bear a gift forward, to bring before another"
+    },
+    "ohm": {
+      "root": "om",
+      "true_meaning": "unit of resistance — named after Ohm, resonating with the primal vibration"
+    },
+    "omen": {
+      "root": "om",
+      "true_meaning": "a sign from beyond, a vibration of meaning from the unseen"
+    },
+    "omni": {
+      "root": "om",
+      "true_meaning": "all, every direction, the totality of the primordial sound"
+    },
+    "open": {
+      "root": "pa",
+      "true_meaning": "unclosed, accessible, the way made clear — the father-principle of expansion"
+    },
+    "oracle": {
+      "root": "pe",
+      "true_meaning": "the speaker, the mouth of the divine, where truth is uttered"
+    },
+    "order": {
+      "root": "reg",
+      "true_meaning": "arrangement in a straight row, proper sequence, the rule applied"
+    },
+    "origin": {
+      "root": "ayin",
+      "true_meaning": "the source, the spring from which something rises, the eye of beginning"
+    },
+    "pace": {
+      "root": "pa",
+      "true_meaning": "a step, the opening of distance, the measured stride along the path"
+    },
+    "page": {
+      "root": "pa",
+      "true_meaning": "a leaf of a book, each opening in the passage of text"
+    },
+    "pain": {
+      "root": "tsade",
+      "true_meaning": "penalty, punishment — the hook that catches the body in suffering"
+    },
+    "pan": {
+      "root": "pa",
+      "true_meaning": "a wide vessel, spread open, the broad container"
+    },
+    "parent": {
+      "root": "gen",
+      "true_meaning": "one who generates, the birther, the source from which children come"
+    },
+    "part": {
+      "root": "pa",
+      "true_meaning": "a piece separated, what opens away from the whole"
+    },
+    "pass": {
+      "root": "pa",
+      "true_meaning": "to go by, to open through, to move along the way"
+    },
+    "path": {
+      "root": "pa",
+      "true_meaning": "the way forward, the opened ground, the route trodden by those who went before"
+    },
+    "patient": {
+      "root": "bhr",
+      "true_meaning": "one who bears, who endures suffering, who carries the weight of waiting"
+    },
+    "pattern": {
+      "root": "pa",
+      "true_meaning": "the father-model, the original template from which copies open"
+    },
+    "peace": {
+      "root": "maat",
+      "true_meaning": "the bound agreement, balance restored, the state of cosmic order between people"
+    },
+    "per": {
+      "root": "pr",
+      "true_meaning": "through, by way of, going forth through a passage"
+    },
+    "perceive": {
+      "root": "ir",
+      "true_meaning": "to see through, to grasp with the eye of understanding"
+    },
+    "perfect": {
+      "root": "nfr",
+      "true_meaning": "thoroughly made, completed, brought to full beauty and finish"
+    },
+    "phone": {
+      "root": "pe",
+      "true_meaning": "sound, voice, the mouth's utterance made into a word"
+    },
+    "phrase": {
+      "root": "pe",
+      "true_meaning": "a group of spoken words, an utterance, a portion of the mouth's speech"
+    },
+    "pillar": {
+      "root": "djd",
+      "true_meaning": "the column that holds up, the backbone of a building, the stable support"
+    },
+    "plant": {
+      "root": "gen",
+      "true_meaning": "to set a seed into earth, the act of generating growth from the ground"
+    },
+    "pool": {
+      "root": "aq",
+      "true_meaning": "a still body of water, a gathering of flow into rest"
+    },
+    "pour": {
+      "root": "aq",
+      "true_meaning": "to cause water to flow, to send liquid forth from a vessel"
+    },
+    "power": {
+      "root": "ka",
+      "true_meaning": "ability, the vital force to act, the animating energy behind action"
+    },
+    "prayer": {
+      "root": "pe",
+      "true_meaning": "an asking, the mouth directed upward, words of entreaty spoken to the unseen"
+    },
+    "present": {
+      "root": "ba",
+      "true_meaning": "being here, existing now, the soul in its current place and time"
+    },
+    "prior": {
+      "root": "pr",
+      "true_meaning": "before, earlier, that which went forth first from the house"
+    },
+    "produce": {
+      "root": "pr",
+      "true_meaning": "to lead forth, to bring out from the house of potential into visible form"
+    },
+    "project": {
+      "root": "pr",
+      "true_meaning": "to throw forward, to cast forth from the house into the distance"
+    },
+    "promise": {
+      "root": "pe",
+      "true_meaning": "a word sent forward, the mouth's commitment to the future"
+    },
+    "propel": {
+      "root": "pul",
+      "true_meaning": "to drive forward, to push onward with force"
+    },
+    "protect": {
+      "root": "pr",
+      "true_meaning": "to cover before, to shield the house, to guard from harm"
+    },
+    "prove": {
+      "root": "pr",
+      "true_meaning": "to test, to put forth for examination, to bring out from concealment for judgment"
+    },
+    "pulse": {
+      "root": "pul",
+      "true_meaning": "the rhythmic push of blood, the beating drive of life's current"
+    },
+    "pure": {
+      "root": "shin",
+      "true_meaning": "cleansed by fire, free of corruption, refined to essence"
+    },
+    "push": {
+      "root": "pul",
+      "true_meaning": "to press forward, to drive with force, to thrust away from"
+    },
+    "quest": {
+      "root": "qoph",
+      "true_meaning": "a seeking, a circling search, the journey to find what is sought"
+    },
+    "question": {
+      "root": "qoph",
+      "true_meaning": "a seeking by asking, the circuit of inquiry that returns with an answer"
+    },
+    "quiet": {
+      "root": "maat",
+      "true_meaning": "at rest, in balanced stillness, undisturbed order"
+    },
+    "rain": {
+      "root": "aq",
+      "true_meaning": "water falling from above, the sky returning moisture to the earth"
+    },
+    "radiant": {
+      "root": "ra",
+      "true_meaning": "sending forth rays, shining with source light, brilliant with radiance"
+    },
+    "ratio": {
+      "root": "ra",
+      "true_meaning": "a reckoning, a calculation of proportion — reason illuminated by number"
+    },
+    "ray": {
+      "root": "ra",
+      "true_meaning": "a beam of light, a line of radiance streaming from a source"
+    },
+    "read": {
+      "root": "ra",
+      "true_meaning": "to advise, to counsel, to interpret marks — bringing light to symbols, illuminating meaning"
+    },
+    "real": {
+      "root": "sat",
+      "true_meaning": "having existence, actually being, that which truly is"
+    },
+    "reason": {
+      "root": "ra",
+      "true_meaning": "to reckon, to calculate — the radiance of the mind applied to problems"
+    },
+    "receive": {
+      "root": "kaph",
+      "true_meaning": "to take into the open hand, to accept what is given"
+    },
+    "record": {
+      "root": "cor",
+      "true_meaning": "to bring back to heart, to set down so the heart remembers"
+    },
+    "refine": {
+      "root": "nfr",
+      "true_meaning": "to make finer, to bring closer to perfection, to purify toward beauty"
+    },
+    "refract": {
+      "root": "frac",
+      "true_meaning": "to break a ray of light, to bend by breaking the path"
+    },
+    "regal": {
+      "root": "reg",
+      "true_meaning": "of the ruler, royal, having the quality of one who directs in straight lines"
+    },
+    "regime": {
+      "root": "reg",
+      "true_meaning": "a system of rule, an order that directs affairs in a straight course"
+    },
+    "region": {
+      "root": "reg",
+      "true_meaning": "a ruled area, a territory under direction, land governed in order"
+    },
+    "regulate": {
+      "root": "reg",
+      "true_meaning": "to make straight, to control by rule, to keep in proper order"
+    },
+    "reign": {
+      "root": "reg",
+      "true_meaning": "to rule, to direct, to hold the straight line of authority"
+    },
+    "remember": {
+      "root": "mem",
+      "true_meaning": "to bring back to mind, to draw up from the waters of memory again"
+    },
+    "rename": {
+      "root": "rn",
+      "true_meaning": "to give a new name, to change the identity-word"
+    },
+    "renew": {
+      "root": "nu",
+      "true_meaning": "to make new again, to return to the state of fresh potential"
+    },
+    "repair": {
+      "root": "hol",
+      "true_meaning": "to restore, to make whole again what was broken"
+    },
+    "resonate": {
+      "root": "res",
+      "true_meaning": "to sound again, to echo back, to vibrate in sympathy"
+    },
+    "resource": {
+      "root": "res",
+      "true_meaning": "that which rises again, a spring that flows back when drawn upon"
+    },
+    "respond": {
+      "root": "res",
+      "true_meaning": "to pledge back, to answer, to return a signal in kind"
+    },
+    "respire": {
+      "root": "spi",
+      "true_meaning": "to breathe again, the rhythmic back-and-forth of spirit-air"
+    },
+    "restore": {
+      "root": "res",
+      "true_meaning": "to set up again, to bring back to the original state"
+    },
+    "result": {
+      "root": "res",
+      "true_meaning": "to spring back, the echo-effect, what flows back from an action"
+    },
+    "return": {
+      "root": "res",
+      "true_meaning": "to turn back, to flow back to the source, to come again to the start"
+    },
+    "reveal": {
+      "root": "ir",
+      "true_meaning": "to pull back the veil, to make visible what was hidden from the eye"
+    },
+    "revert": {
+      "root": "vrt",
+      "true_meaning": "to turn back, to revolve to the former state"
+    },
+    "right": {
+      "root": "reg",
+      "true_meaning": "straight, correct, aligned with the true direction — the stretched line"
+    },
+    "righteous": {
+      "root": "tsade",
+      "true_meaning": "acting in accordance with right, caught by the hook of justice, upright"
+    },
+    "rise": {
+      "root": "emer",
+      "true_meaning": "to come up, to emerge from below, to ascend"
+    },
+    "river": {
+      "root": "aq",
+      "true_meaning": "a flowing body of water, the current that carves through land"
+    },
+    "road": {
+      "root": "gimel",
+      "true_meaning": "a way for riding, the path of journey, ground prepared for carrying across"
+    },
+    "root": {
+      "root": "dhr",
+      "true_meaning": "the hidden foundation, what holds firm beneath, the anchor in the deep"
+    },
+    "rule": {
+      "root": "resh",
+      "true_meaning": "to head, to govern, the chief's act of directing from the summit"
+    },
+    "sacred": {
+      "root": "hol",
+      "true_meaning": "set apart as whole, consecrated, holy because complete and unbroken"
+    },
+    "satisfy": {
+      "root": "sat",
+      "true_meaning": "to make enough, to fulfill, to bring to the state of 'it is'"
+    },
+    "say": {
+      "root": "pe",
+      "true_meaning": "to utter from the mouth, to give words their sounding"
+    },
+    "sea": {
+      "root": "aq",
+      "true_meaning": "the great water, the vast flow, the salt ocean"
+    },
+    "seal": {
+      "root": "tav",
+      "true_meaning": "a mark pressed to close and authenticate, the stamp that completes"
+    },
+    "search": {
+      "root": "qoph",
+      "true_meaning": "to go around, to circle seeking, to quest in widening arcs"
+    },
+    "season": {
+      "root": "teth",
+      "true_meaning": "a turn of time, one revolution of the wheel, a portion of the year's cycle"
+    },
+    "see": {
+      "root": "ir",
+      "true_meaning": "to perceive with the eye, to make real through seeing"
+    },
+    "seed": {
+      "root": "nun",
+      "true_meaning": "that which is sown, the germ of new life, the beginning swimming in the deep"
+    },
+    "seek": {
+      "root": "qoph",
+      "true_meaning": "to go after, to search, to follow the circuit of inquiry"
+    },
+    "self": {
+      "root": "sol",
+      "true_meaning": "one's own being, the sole center, the individual whole"
+    },
+    "sense": {
+      "root": "sat",
+      "true_meaning": "perception, feeling, the faculty of knowing what is — the realness-detector"
+    },
+    "shape": {
+      "root": "khpr",
+      "true_meaning": "to scrape into form, to create by transformation, the result of becoming"
+    },
+    "sharp": {
+      "root": "shin",
+      "true_meaning": "having a cutting edge, keen as a tooth, the blade's quality of fire"
+    },
+    "shelter": {
+      "root": "pr",
+      "true_meaning": "a covering, a protective house, that which shields the vulnerable"
+    },
+    "shift": {
+      "root": "khpr",
+      "true_meaning": "to change position, to transform placement, a becoming of new arrangement"
+    },
+    "shine": {
+      "root": "shin",
+      "true_meaning": "to give light, to glow, to blaze — the tooth of fire made visible as radiance"
+    },
+    "show": {
+      "root": "shin",
+      "true_meaning": "to let be seen, to make visible, to reveal by the light of fire and clarity"
+    },
+    "sight": {
+      "root": "ir",
+      "true_meaning": "the act of seeing, vision, the eye's reach into the world"
+    },
+    "sign": {
+      "root": "tav",
+      "true_meaning": "a mark that carries meaning, the gesture or symbol that signifies"
+    },
+    "silence": {
+      "root": "nu",
+      "true_meaning": "the absence of sound, the primal quiet before utterance, the deep before vibration"
+    },
+    "sing": {
+      "root": "pe",
+      "true_meaning": "to make music with the mouth, to give the voice its fullest utterance"
+    },
+    "soil": {
+      "root": "ter",
+      "true_meaning": "the earth, the ground, the terrene substance from which things grow"
+    },
+    "solar": {
+      "root": "sol",
+      "true_meaning": "of the sun, belonging to the singular source of light and warmth"
+    },
+    "sole": {
+      "root": "sol",
+      "true_meaning": "alone, only, the single one — whole and complete in itself"
+    },
+    "solid": {
+      "root": "sol",
+      "true_meaning": "firm, whole, dense, completely filled — not hollow or broken"
+    },
+    "solo": {
+      "root": "sol",
+      "true_meaning": "alone, performed by one, the individual acting as a complete whole"
+    },
+    "solve": {
+      "root": "sol",
+      "true_meaning": "to loosen, to untie, to make whole by releasing the knot of a problem"
+    },
+    "song": {
+      "root": "pe",
+      "true_meaning": "that which is sung, the mouth's offering of melody and word"
+    },
+    "sooth": {
+      "root": "sat",
+      "true_meaning": "truth, what actually is — a soothsayer speaks what truly is"
+    },
+    "soul": {
+      "root": "sol",
+      "true_meaning": "the inner sun, the singular essence of a person, the whole self"
+    },
+    "sound": {
+      "root": "sdm",
+      "true_meaning": "vibration perceived by hearing, that which reaches the ear"
+    },
+    "source": {
+      "root": "ayin",
+      "true_meaning": "a spring, the point of rising, where something wells up from the deep"
+    },
+    "spark": {
+      "root": "shin",
+      "true_meaning": "a tiny fire-fragment, a flying particle of flame"
+    },
+    "speak": {
+      "root": "pe",
+      "true_meaning": "to utter words from the mouth, to create reality through speech"
+    },
+    "spiral": {
+      "root": "spi",
+      "true_meaning": "a curve that winds outward from a center, the shape of breath in motion"
+    },
+    "spirit": {
+      "root": "spi",
+      "true_meaning": "breath, the animating force, that which is breathed in and gives life"
+    },
+    "spring": {
+      "root": "ayin",
+      "true_meaning": "water leaping from the earth, the eye of the ground that sees with water"
+    },
+    "stable": {
+      "root": "sta",
+      "true_meaning": "firmly standing, fixed, not liable to fall — established in its standing"
+    },
+    "stand": {
+      "root": "sta",
+      "true_meaning": "to be upright, to remain on one's feet, to be established"
+    },
+    "star": {
+      "root": "ra",
+      "true_meaning": "the strewn lights, distant suns, radiant points scattered across the night"
+    },
+    "start": {
+      "root": "emer",
+      "true_meaning": "to leap up suddenly, to jump into action, to rise out from stillness"
+    },
+    "state": {
+      "root": "sta",
+      "true_meaning": "the way a thing stands, its condition, its established position"
+    },
+    "static": {
+      "root": "sta",
+      "true_meaning": "standing still, not in motion, fixed in place without change"
+    },
+    "station": {
+      "root": "sta",
+      "true_meaning": "a standing place, where one is positioned, the fixed point"
+    },
+    "stay": {
+      "root": "sta",
+      "true_meaning": "to remain standing, to not depart, to hold one's position"
+    },
+    "steady": {
+      "root": "djd",
+      "true_meaning": "firm in standing, stable, the quality of the backbone — not wavering"
+    },
+    "stem": {
+      "root": "djd",
+      "true_meaning": "the main stalk, the pillar of a plant that holds it upright"
+    },
+    "step": {
+      "root": "pa",
+      "true_meaning": "a pace, a single opening of distance by the foot along the path"
+    },
+    "still": {
+      "root": "sta",
+      "true_meaning": "motionless, standing without movement, calm and fixed"
+    },
+    "stone": {
+      "root": "sta",
+      "true_meaning": "solidified earth that stands firm, hard matter that endures"
+    },
+    "store": {
+      "root": "sta",
+      "true_meaning": "a standing supply, provisions set in place, what is established for use"
+    },
+    "storm": {
+      "root": "aq",
+      "true_meaning": "violent weather, the waters of the sky unleashed in fury"
+    },
+    "stream": {
+      "root": "aq",
+      "true_meaning": "flowing water, a current, the steady movement of liquid along a course"
+    },
+    "strength": {
+      "root": "djd",
+      "true_meaning": "the quality of being strong, the backbone's force, the pillar's endurance"
+    },
+    "structure": {
+      "root": "djd",
+      "true_meaning": "that which is built up, the arranged framework, the stable construction"
+    },
+    "sun": {
+      "root": "ra",
+      "true_meaning": "the great light, source of radiance, the star that gives day"
+    },
+    "support": {
+      "root": "samekh",
+      "true_meaning": "to carry from beneath, to prop up, to bear the weight of another"
+    },
+    "surge": {
+      "root": "emer",
+      "true_meaning": "to rise suddenly, to swell up, a powerful emergence of force"
+    },
+    "survive": {
+      "root": "ankh",
+      "true_meaning": "to live beyond, to keep life going past the threat, to outlive"
+    },
+    "sustain": {
+      "root": "samekh",
+      "true_meaning": "to hold up from below, to keep from falling, to maintain with support"
+    },
+    "swim": {
+      "root": "aq",
+      "true_meaning": "to move through water by one's own effort, to navigate the flow"
+    },
+    "symbol": {
+      "root": "syn",
+      "true_meaning": "a thing thrown together with meaning, a mark that represents by association"
+    },
+    "sympathy": {
+      "root": "syn",
+      "true_meaning": "feeling together, shared suffering, the binding of hearts in common emotion"
+    },
+    "synapse": {
+      "root": "syn",
+      "true_meaning": "the junction where neurons clasp together, the meeting-point of signals"
+    },
+    "synchronize": {
+      "root": "syn",
+      "true_meaning": "to move together in time, to unite the rhythms of separate things"
+    },
+    "synthesis": {
+      "root": "syn",
+      "true_meaning": "placing together, combining separate parts into a united whole"
+    },
+    "system": {
+      "root": "syn",
+      "true_meaning": "a standing-together, parts organized into a functioning whole"
+    },
+    "tag": {
+      "root": "tav",
+      "true_meaning": "a hanging mark, a label attached to identify, a small sign"
+    },
+    "teach": {
+      "root": "lamed",
+      "true_meaning": "to show the way, to point out, to goad the student toward knowledge"
+    },
+    "tear": {
+      "root": "aq",
+      "true_meaning": "the water of the eye, emotion becoming liquid, grief made visible as flow"
+    },
+    "tell": {
+      "root": "rn",
+      "true_meaning": "to recount, to name events in order, to give account by making known"
+    },
+    "term": {
+      "root": "ter",
+      "true_meaning": "a boundary, a limit, the edge of a territory of meaning"
+    },
+    "terra": {
+      "root": "ter",
+      "true_meaning": "earth, ground, the land itself"
+    },
+    "terrain": {
+      "root": "ter",
+      "true_meaning": "the character of the ground, the nature of the earth's surface"
+    },
+    "territory": {
+      "root": "ter",
+      "true_meaning": "a tract of land, an area of earth claimed and defended"
+    },
+    "test": {
+      "root": "pr",
+      "true_meaning": "to try, to put forth for proof, to examine by bringing out"
+    },
+    "theta": {
+      "root": "teth",
+      "true_meaning": "the serpent letter, the wheel of time and transformation"
+    },
+    "think": {
+      "root": "mns",
+      "true_meaning": "to exercise the mind, to measure and weigh with thought"
+    },
+    "thirst": {
+      "root": "aq",
+      "true_meaning": "the dryness, the craving for water, the body calling for flow"
+    },
+    "throne": {
+      "root": "dhr",
+      "true_meaning": "the seat of the one who holds firm, the chair of sustained authority"
+    },
+    "tide": {
+      "root": "teth",
+      "true_meaning": "a division of time — the turning of the waters, the wheel of ebb and flow"
+    },
+    "time": {
+      "root": "teth",
+      "true_meaning": "the measured turning, the wheel of moments, the serpent's coil of duration"
+    },
+    "token": {
+      "root": "tav",
+      "true_meaning": "a sign, a mark of proof, a small thing that stands for something greater"
+    },
+    "tongue": {
+      "root": "pe",
+      "true_meaning": "the organ in the mouth that shapes speech, the flesh of utterance"
+    },
+    "total": {
+      "root": "tav",
+      "true_meaning": "the whole sum, the complete count, everything marked and tallied"
+    },
+    "touch": {
+      "root": "yod",
+      "true_meaning": "to bring the hand into contact, the smallest act of the hand upon another"
+    },
+    "trade": {
+      "root": "gimel",
+      "true_meaning": "the exchange of goods carried across distance, commerce as journey"
+    },
+    "transfer": {
+      "root": "bhr",
+      "true_meaning": "to carry across, to bear from one place or person to another"
+    },
+    "transform": {
+      "root": "khpr",
+      "true_meaning": "to change form, to become other, to undergo the scarab's metamorphosis"
+    },
+    "travel": {
+      "root": "gimel",
+      "true_meaning": "to journey, to carry oneself across distance, the act of crossing terrain"
+    },
+    "tree": {
+      "root": "dhr",
+      "true_meaning": "that which holds firm, the living pillar — true, strong, enduring, deeply rooted"
+    },
+    "tribe": {
+      "root": "gen",
+      "true_meaning": "a division of people, a birth-group, a family-branch of the nation"
+    },
+    "true": {
+      "root": "dhr",
+      "true_meaning": "firm as a tree, steadfast, solid — truth is what holds and does not bend"
+    },
+    "trust": {
+      "root": "dhr",
+      "true_meaning": "firm reliance, comfort in holding fast, confidence that will not break"
+    },
+    "truth": {
+      "root": "dhr",
+      "true_meaning": "that which is tree-firm, the solid state of what is real, faithfulness to what holds"
+    },
+    "turn": {
+      "root": "teth",
+      "true_meaning": "to revolve, to rotate, to follow the serpent's wheel"
+    },
+    "twist": {
+      "root": "teth",
+      "true_meaning": "to wind, to coil, to turn one thing around another like the serpent"
+    },
+    "understand": {
+      "root": "sdm",
+      "true_meaning": "to stand among the meaning, to be present in the midst of what is heard"
+    },
+    "union": {
+      "root": "syn",
+      "true_meaning": "the joining of many into one, the act of binding together"
+    },
+    "unite": {
+      "root": "syn",
+      "true_meaning": "to make one, to bind together into a single whole"
+    },
+    "universe": {
+      "root": "vrt",
+      "true_meaning": "the one turning, all things revolving as one, the whole of reality in rotation"
+    },
+    "valley": {
+      "root": "ter",
+      "true_meaning": "low ground between hills, the earth's dip, the terrain's hollow"
+    },
+    "value": {
+      "root": "wr",
+      "true_meaning": "worth, strength, the magnitude of a thing's importance"
+    },
+    "verdant": {
+      "root": "ver",
+      "true_meaning": "green, lush with spring growth, showing the truth of the season's turning"
+    },
+    "verdict": {
+      "root": "ver",
+      "true_meaning": "a true saying, the truth spoken by the jury, the declaration of what really is"
+    },
+    "verify": {
+      "root": "ver",
+      "true_meaning": "to make true, to confirm the reality of, to test against what truly is"
+    },
+    "version": {
+      "root": "vrt",
+      "true_meaning": "a turning, a particular turning of a work, one revolution of an evolving thing"
+    },
+    "vert": {
+      "root": "vrt",
+      "true_meaning": "to turn, green — the turning of seasons toward growth"
+    },
+    "very": {
+      "root": "ver",
+      "true_meaning": "truly, in truth, really, emphasizing the realness of what follows"
+    },
+    "vine": {
+      "root": "vav",
+      "true_meaning": "the climbing plant that hooks and connects, weaving through supports"
+    },
+    "virtue": {
+      "root": "ver",
+      "true_meaning": "moral strength, the power of truth, excellence of character rooted in what is real"
+    },
+    "vision": {
+      "root": "vid",
+      "true_meaning": "the act of seeing, sight, the faculty where perception and knowledge merge"
+    },
+    "voice": {
+      "root": "pe",
+      "true_meaning": "the sound from the mouth, the personal utterance, one's own spoken expression"
+    },
+    "void": {
+      "root": "nu",
+      "true_meaning": "empty, vacant, the primordial absence, the space before creation fills it"
+    },
+    "vortex": {
+      "root": "vrt",
+      "true_meaning": "a whirling mass, the turning center, water or air revolving around itself"
+    },
+    "wake": {
+      "root": "ir",
+      "true_meaning": "to open the eyes, to stop sleeping, to enter the state of seeing and awareness"
+    },
+    "walk": {
+      "root": "pa",
+      "true_meaning": "to move on foot along a path, to open distance by stepping"
+    },
+    "wall": {
+      "root": "cheth",
+      "true_meaning": "a vertical fence of stone or brick, the enclosing barrier of a house"
+    },
+    "war": {
+      "root": "wr",
+      "true_meaning": "strife, confusion, discord — the great magnitude of human conflict"
+    },
+    "warp": {
+      "root": "web",
+      "true_meaning": "the lengthwise threads on a loom, the foundation of the weave"
+    },
+    "warrior": {
+      "root": "wr",
+      "true_meaning": "one who engages in the great contest, a person of magnitude in conflict"
+    },
+    "wash": {
+      "root": "aq",
+      "true_meaning": "to cleanse with water, to purify with flow"
+    },
+    "watch": {
+      "root": "ir",
+      "true_meaning": "to keep the eyes upon, to observe through time, to see with sustained attention"
+    },
+    "water": {
+      "root": "aq",
+      "true_meaning": "the flowing element, the universal solvent, the medium of all life"
+    },
+    "wave": {
+      "root": "aq",
+      "true_meaning": "water moving in rhythm, the oscillation of flow, the undulation of the surface"
+    },
+    "wealth": {
+      "root": "wdj",
+      "true_meaning": "well-being, the state of faring well, prosperity as wholeness of fortune"
+    },
+    "weave": {
+      "root": "web",
+      "true_meaning": "to interlace threads, to create fabric by crossing fibers in and out"
+    },
+    "web": {
+      "root": "web",
+      "true_meaning": "a woven fabric, the interconnected structure, threads joined into a whole"
+    },
+    "weft": {
+      "root": "web",
+      "true_meaning": "the crosswise threads in weaving, the horizontal element of the fabric"
+    },
+    "well": {
+      "root": "ayin",
+      "true_meaning": "a spring, a source of water from the deep, the eye of the earth"
+    },
+    "wet": {
+      "root": "aq",
+      "true_meaning": "covered in water, moistened, in the state of water's presence"
+    },
+    "whole": {
+      "root": "hol",
+      "true_meaning": "complete, entire, unbroken, all parts present and unified"
+    },
+    "will": {
+      "root": "yod",
+      "true_meaning": "to wish, to choose, to determine — the hand of the mind reaching toward the future"
+    },
+    "wind": {
+      "root": "spi",
+      "true_meaning": "moving air, the breath of the atmosphere, invisible spirit made felt"
+    },
+    "window": {
+      "root": "he",
+      "true_meaning": "wind-eye — the opening in the wall through which breath and light enter"
+    },
+    "wisdom": {
+      "root": "vid",
+      "true_meaning": "the state of having seen, deep knowledge from vision, insight accumulated over time"
+    },
+    "wish": {
+      "root": "yod",
+      "true_meaning": "to desire, to extend the hand of will toward what is wanted"
+    },
+    "wit": {
+      "root": "vid",
+      "true_meaning": "mental sight, quickness of seeing, knowledge through perception"
+    },
+    "with": {
+      "root": "vav",
+      "true_meaning": "alongside, together, the hook of connection — the joining word"
+    },
+    "witness": {
+      "root": "vid",
+      "true_meaning": "one who has seen, one with knowledge of what happened through direct sight"
+    },
+    "woke": {
+      "root": "ir",
+      "true_meaning": "past tense of wake — became alert, opened the eyes, stopped sleeping, entered awareness"
+    },
+    "word": {
+      "root": "wr",
+      "true_meaning": "a spoken unit, the utterance of magnitude, the great act of naming"
+    },
+    "work": {
+      "root": "wr",
+      "true_meaning": "to do, to act, to make — the great deed, effort of magnitude"
+    },
+    "world": {
+      "root": "wr",
+      "true_meaning": "age of man, the great span of human existence, the magnitude of all things"
+    },
+    "worth": {
+      "root": "wr",
+      "true_meaning": "value, the magnitude of a thing's weight, what it truly amounts to"
+    },
+    "write": {
+      "root": "tav",
+      "true_meaning": "to scratch marks, to carve signs — the act of making permanent tokens"
+    },
+    "year": {
+      "root": "qoph",
+      "true_meaning": "the full cycle, the complete circuit of seasons, the sun's return to where it began"
+    },
+    "zeal": {
+      "root": "zayin",
+      "true_meaning": "passionate fervor, the cutting intensity of devoted purpose"
+    },
+    "zero": {
+      "root": "zayin",
+      "true_meaning": "the empty mark, the nothing that divides positive from negative"
+    },
+    "zone": {
+      "root": "zayin",
+      "true_meaning": "a belt, a girdle, a divided area — the plow-cut that separates regions"
+    }
+  }
+}
