@@ -579,6 +579,147 @@ const BASE = {
   "freedom":["ka"],"slavery":["cheth"],"prison":["cheth"],"jail":["cheth"],
   "wealth":["wr"],"poverty":["nu"],"money":["ma"],"coin":["tav"],
   "price":["ma"],"cost":["ma"],"debt":["dhr"],"profit":["pr"],
+
+  // Single letters and very short words
+  "a":["aleph"],"b":["beth"],"c":["gimel"],"d":["daleth"],"e":["he"],
+  "f":["pe"],"g":["gimel"],"h":["he"],"i":["yod"],"j":["yod"],
+  "k":["kaph"],"l":["lamed"],"m":["mem"],"n":["nun"],"o":["ayin"],
+  "p":["pe"],"q":["qoph"],"r":["resh"],"s":["samekh"],"t":["tav"],
+  "u":["vav"],"v":["vav"],"w":["vav"],"x":["tav"],"y":["yod"],"z":["zayin"],
+  "ab":["pa"],"ad":["pa"],"ah":["he"],"an":["aleph"],"as":["ba"],
+  "at":["beth"],"ax":["zayin"],"by":["pa"],"do":["yod"],"go":["gimel"],
+  "ha":["he"],"hi":["he"],"ho":["he"],"if":["daleth"],"in":["beth"],
+  "it":["ba"],"lo":["ir"],"me":["ba"],"my":["ba"],"no":["nu"],
+  "of":["pa"],"oh":["he"],"ok":["maat"],"on":["sta"],"or":["daleth"],
+  "ow":["sdm"],"ox":["aleph"],"pa":["pa"],"so":["sat"],"to":["pa"],
+  "up":["emer"],"us":["syn"],"we":["syn"],"ye":["he"],
+  "the":["he"],"not":["nu"],"but":["daleth"],"for":["pa"],"nor":["nu"],
+  "yet":["teth"],"any":["aleph"],"who":["qoph"],"how":["qoph"],
+  "why":["qoph"],"what":["qoph"],"when":["teth"],"where":["beth"],
+  "which":["qoph"],"this":["he"],"that":["he"],"than":["maat"],
+  "then":["teth"],"them":["he"],"they":["he"],"she":["he"],
+  "its":["ba"],"our":["syn"],"your":["he"],"has":["kaph"],
+  "had":["kaph"],"have":["kaph"],"may":["ka"],"can":["ka"],
+  "did":["yod"],"get":["kaph"],"got":["kaph"],"let":["kaph"],
+  "put":["sta"],"set":["sta"],"sat":["sta"],"sit":["sta"],
+  "saw":["ir"],"ran":["gimel"],"ate":["pe"],"met":["syn"],
+  "hit":["pul"],"bit":["shin"],"won":["emer"],"lost":["frac"],
+  "fell":["frac"],"flew":["pa"],"grew":["gen"],"drew":["yod"],
+  "knew":["rn"],"blew":["spi"],"threw":["pul"],"sang":["pe"],
+  "rang":["sdm"],"hung":["vav"],"dug":["ter"],"fed":["ma"],
+  "led":["lamed"],"laid":["sta"],"paid":["ma"],"said":["pe"],
+  "told":["rn"],"sold":["kaph"],"held":["yod"],"sent":["pa"],
+  "spent":["ma"],"left":["pa"],"kept":["kaph"],"slept":["nu"],
+  "wept":["mem"],"found":["ir"],"stood":["sta"],"began":["ayin"],
+  "gave":["kaph"],"took":["kaph"],"came":["gimel"],"made":["ma"],
+  "went":["gimel"],"got":["kaph"],"done":["yod"],"seen":["ir"],
+  "been":["ba"],"gone":["gimel"],"each":["aleph"],"some":["aleph"],
+  "many":["aleph"],"much":["wr"],"more":["wr"],"most":["wr"],
+  "few":["nu"],"own":["kaph"],"same":["maat"],"other":["daleth"],
+  "such":["maat"],"also":["syn"],"very":["ver"],"just":["tsade"],
+  "now":["teth"],"long":["teth"],"high":["resh"],"low":["ter"],
+  "big":["wr"],"little":["ma"],"great":["wr"],"small":["ma"],
+  "next":["pa"],"after":["pa"],"before":["pr"],"between":["daleth"],
+  "under":["ter"],"over":["resh"],"through":["daleth"],"into":["beth"],
+  "out":["pa"],"off":["pa"],"down":["ter"],"back":["samekh"],
+  "away":["pa"],"again":["qoph"],"still":["sta"],"even":["maat"],
+  "because":["ka"],"since":["teth"],"until":["teth"],"while":["teth"],
+  "though":["daleth"],"although":["daleth"],"whether":["qoph"],
+  "however":["daleth"],"therefore":["logos"],"thus":["logos"],
+  "perhaps":["qoph"],"maybe":["qoph"],"rather":["maat"],
+  "quite":["hol"],"enough":["hol"],"too":["wr"],"must":["dhr"],
+  "shall":["dhr"],"should":["dhr"],"would":["yod"],"could":["ka"],
+  "might":["ka"],"need":["ka"],"want":["ka"],"like":["nfr"],
+  "thing":["ba"],"place":["beth"],"man":["gen"],"woman":["gen"],
+  "people":["syn"],"way":["pa"],"part":["pa"],"number":["ma"],
+  "water":["aq"],"day":["ra"],"world":["wr"],"life":["ankh"],
+
+  // Common words from various categories
+  "table":["samekh"],"chair":["samekh"],"desk":["samekh"],"bench":["samekh"],
+  "stool":["samekh"],"sofa":["samekh"],"couch":["samekh"],
+  "door":["daleth"],"roof":["beth"],"wall":["cheth"],"fence":["cheth"],
+  "floor":["ter"],"stair":["pa"],"ladder":["pa"],"elevator":["emer"],
+  "clock":["teth"],"watch":["ir"],"mirror":["ir"],"lamp":["shin"],
+  "candle":["shin"],"torch":["shin"],"fire":["shin"],
+  "spoon":["kaph"],"fork":["zayin"],"plate":["beth"],"dish":["beth"],
+  "bread":["ma"],"butter":["ma"],"cheese":["ma"],"milk":["ma"],
+  "wine":["aq"],"beer":["aq"],"tea":["gen"],"coffee":["gen"],
+  "sugar":["nfr"],"salt":["ter"],"pepper":["shin"],"oil":["aq"],
+  "rice":["gen"],"wheat":["gen"],"corn":["gen"],"grain":["gen"],
+  "apple":["gen"],"berry":["gen"],"grape":["gen"],"peach":["gen"],
+  "pear":["gen"],"plum":["gen"],"cherry":["gen"],"lemon":["gen"],
+  "orange":["gen"],"banana":["gen"],"melon":["gen"],"tomato":["gen"],
+  "onion":["gen"],"potato":["gen"],"carrot":["gen"],"bean":["gen"],
+  "grass":["gen"],"flower":["gen"],"leaf":["gen"],"branch":["gen"],
+  "trunk":["dhr"],"bark":["beth"],"moss":["gen"],"fern":["gen"],
+  "rose":["nfr"],"lily":["nfr"],"tulip":["nfr"],"daisy":["nfr"],
+  "oak":["dhr"],"elm":["dhr"],"pine":["dhr"],"maple":["dhr"],
+  "bush":["gen"],"shrub":["gen"],"hedge":["cheth"],
+  "iron":["ter"],"steel":["djd"],"copper":["ter"],"brass":["ter"],
+  "lead":["ter"],"tin":["ter"],"zinc":["ter"],"aluminum":["ter"],
+  "diamond":["ter"],"ruby":["lux"],"emerald":["lux"],"sapphire":["lux"],
+  "pearl":["aq"],"coral":["aq"],"crystal":["lux"],
+  "cotton":["web"],"silk":["web"],"wool":["web"],"linen":["web"],
+  "leather":["beth"],"rubber":["khpr"],"plastic":["khpr"],
+  "paper":["tav"],"ink":["tav"],"pen":["tav"],"pencil":["tav"],
+  "paint":["lux"],"dye":["lux"],"pigment":["lux"],
+  "north":["pa"],"south":["pa"],"east":["ra"],"west":["teth"],
+  "left":["pa"],"right":["reg"],"above":["resh"],"below":["ter"],
+  "center":["cor"],"middle":["cor"],"inside":["beth"],"outside":["pa"],
+  "front":["pa"],"behind":["samekh"],"beside":["syn"],"near":["syn"],
+  "across":["gimel"],"along":["pa"],"beyond":["pa"],"among":["syn"],
+  "toward":["pa"],"against":["frac"],
+
+  // Common verbs
+  "ask":["qoph"],"begin":["ayin"],"believe":["dhr"],"belong":["beth"],
+  "bring":["bhr"],"build":["beth"],"buy":["kaph"],"call":["ka"],
+  "change":["khpr"],"close":["tav"],"consider":["mns"],
+  "continue":["teth"],"decide":["mns"],"describe":["tav"],
+  "die":["tav"],"fall":["frac"],"fill":["hol"],
+  "follow":["pa"],"grow":["gen"],"happen":["emer"],
+  "help":["samekh"],"keep":["kaph"],"kill":["zayin"],
+  "leave":["pa"],"let":["kaph"],"lose":["frac"],
+  "meet":["syn"],"move":["gimel"],"need":["ka"],
+  "pay":["ma"],"play":["nfr"],"provide":["pr"],
+  "put":["sta"],"read":["logos"],"remain":["sta"],
+  "require":["qoph"],"seem":["ir"],"sell":["kaph"],
+  "send":["pa"],"serve":["samekh"],"set":["sta"],
+  "show":["ir"],"spend":["ma"],"stop":["tav"],
+  "suggest":["pe"],"think":["mns"],"turn":["vrt"],
+  "understand":["sdm"],"wait":["teth"],"want":["ka"],
+  "win":["emer"],"write":["tav"],
+
+  // Common adjectives
+  "bad":["frac"],"best":["nfr"],"better":["nfr"],"black":["nu"],
+  "certain":["dhr"],"clear":["lux"],"cold":["aq"],"common":["syn"],
+  "dead":["tav"],"different":["daleth"],"difficult":["frac"],
+  "dry":["ter"],"early":["teth"],"easy":["nfr"],
+  "enough":["hol"],"final":["tav"],"full":["hol"],
+  "hard":["djd"],"heavy":["bhr"],"human":["gen"],
+  "important":["wr"],"large":["wr"],"late":["teth"],
+  "left":["pa"],"likely":["nfr"],"local":["beth"],
+  "main":["resh"],"major":["wr"],"military":["wr"],
+  "national":["nun"],"necessary":["dhr"],"new":["nu"],
+  "old":["teth"],"own":["kaph"],"particular":["sol"],
+  "physical":["ter"],"political":["lamed"],"possible":["ka"],
+  "public":["syn"],"real":["sat"],"recent":["teth"],
+  "second":["teth"],"short":["zayin"],"simple":["sol"],
+  "social":["syn"],"special":["sol"],"strong":["djd"],
+  "sure":["dhr"],"true":["sat"],"white":["lux"],
+  "whole":["hol"],"wide":["pa"],"wrong":["frac"],
+  "young":["gen"],
+
+  // Common nouns
+  "air":["spi"],"area":["ter"],"city":["beth"],"company":["syn"],
+  "day":["ra"],"door":["daleth"],"end":["tav"],"eye":["ir"],
+  "god":["ka"],"group":["syn"],"hand":["yod"],"head":["resh"],
+  "heart":["cor"],"hour":["teth"],"kind":["gen"],"king":["resh"],
+  "land":["ter"],"line":["pa"],"mind":["mns"],"money":["ma"],
+  "mother":["ma"],"name":["rn"],"night":["nu"],"order":["lamed"],
+  "point":["tav"],"power":["ka"],"room":["beth"],"side":["daleth"],
+  "son":["gen"],"story":["logos"],"system":["samekh"],
+  "thought":["mns"],"war":["wr"],"word":["pe"],
+  "year":["teth"],
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -748,6 +889,479 @@ const STEM_PATTERNS = [
   [/pneum(a|atic|atology|onia|othorax|ococcal|oconiosis)?$/, "spi"],
   [/encephal(itis|ography|ogram|on|opathy)?$/, "mns"],
   [/pharmac(y|ology|ological|ologist|eutical|opoeia|odynamic|okinetic)?$/, "hol"],
+
+  // ── Additional common suffix patterns ──
+  [/proof$/, "samekh"],          // waterproof, bulletproof → protection/support
+  [/ette(s)?$/, "ma"],           // diminutive → small measure
+  [/some(ly|ness)?$/, "nfr"],    // handsome, awesome → quality/beauty
+  [/weed(s)?$/, "gen"],          // seaweed, ragweed → plant growth
+  [/hood$/, "beth"],             // childhood, neighborhood → state/container
+  [/wort(s)?$/, "gen"],          // liverwort, spiderwort → plant
+  [/work(s|er|ers|ing)?$/, "yod"], // handiwork, framework → doing/making
+  [/emia$/, "mem"],              // anemia, leukemia → blood/fluid condition
+  [/aemia$/, "mem"],             // bacteraemia → blood condition
+  [/ella(e)?$/, "gen"],          // salmonella, novella → diminutive/kind
+  [/fish(es|er|erman|ery|ing)?$/, "aq"], // swordfish, starfish → water creature
+  [/bird(s)?$/, "spi"],          // blackbird, songbird → flying/air creature
+  [/ster(s)?$/, "yod"],          // master, spinster → one who does
+  [/ress(es)?$/, "gen"],         // actress, tigress → feminine form
+  [/ably$/, "ka"],               // remarkably, notably → capacity
+  [/ibly$/, "ka"],               // possibly, visibly → capacity
+  [/ight(s)?$/, "lux"],          // light, bright, night → relating to light/dark
+  [/ight$/, "lux"],              // might, sight, knight → power/vision
+  [/ower(s|ed|ing)?$/, "gen"],   // flower, tower, power → growth/rising
+  [/esis$/, "gen"],              // genesis, thesis → becoming/placing
+  [/asis$/, "sta"],              // basis, stasis → standing/foundation
+  [/uria$/, "aq"],               // polyuria → water/fluid condition
+  [/eria$/, "beth"],             // cafeteria, bacteria → place/container
+  [/esia$/, "sdm"],              // anesthesia, amnesia → sensation/perception
+  [/alia$/, "hol"],              // regalia, mammalia → collection/whole
+  [/ania$/, "ter"],              // mania, Romania → land/condition
+  [/onia$/, "ter"],              // pneumonia, Amazonia → region/condition
+  [/ling(s)?$/, "gen"],          // duckling, sibling → young/offspring
+  [/ward(s)?$/, "pa"],           // forward, backward → direction/path
+  [/ship(s)?$/, "gimel"],        // friendship, worship → vessel/carrying
+  [/like$/, "khpr"],             // lifelike, childlike → resembling/form
+  [/wise$/, "vid"],              // likewise, otherwise → in the manner of knowing
+
+  // ── More specific etymological suffix patterns ──
+  [/maker(s)?$/, "yod"],           // bookmaker, shoemaker → one who makes by hand
+  [/board(s)?$/, "dhr"],           // blackboard, cardboard → flat wood surface
+  [/algia$/, "sdm"],              // neuralgia, nostalgia → pain/sensation
+  [/ocele$/, "beth"],             // hydrocele, varicocele → swelling/container
+  [/esque$/, "khpr"],             // picturesque, statuesque → in the style/form of
+  [/mancy$/, "hk"],               // necromancy, divination by magic
+  [/odont(ia|ic|oid)?$/, "shin"], // orthodont → tooth
+  [/erapy$/, "hol"],              // therapy → healing
+  [/therap(y|ist|eutic)?$/, "hol"], // therapeutic → healing
+  [/otype(s)?$/, "khpr"],         // prototype, archetype → original form
+  [/rrhea$/, "aq"],               // diarrhea → flowing
+  [/rrhoea$/, "aq"],              // diarrhoea → flowing
+  [/rrhage$/, "frac"],            // hemorrhage → bursting/breaking
+  [/rrhagia$/, "frac"],           // hemorrhagia → bursting
+  [/cracy$/, "lamed"],            // democracy → rule/governance
+  [/crat(s|ic)?$/, "lamed"],      // democrat → ruler
+  [/olith(ic|s)?$/, "ter"],       // monolith, paleolithic → stone/earth
+  [/ylene(s)?$/, "khpr"],         // ethylene → chemical form/transformation
+  [/philia$/, "ka"],              // bibliophilia → love
+  [/phile(s)?$/, "ka"],           // bibliophile → lover of
+  [/philia$/, "ka"],              // love of
+  [/phagia$/, "pe"],              // dysphagia → eating/mouth
+  [/phagy$/, "pe"],               // anthropophagy → eating
+  [/phage(s)?$/, "pe"],           // bacteriophage → eater
+  [/cidal$/, "zayin"],            // germicidal, suicidal → killing/cutting
+  [/laria$/, "gen"],              // malaria → relating to kind/condition
+  [/ulose$/, "nfr"],              // cellulose → substance quality
+  [/escent(ly)?$/, "emer"],       // adolescent, luminescent → becoming/emerging
+  [/escence$/, "emer"],           // adolescence → process of becoming
+  [/atory$/, "yod"],              // laboratory, observatory → place of doing
+  [/orium(s)?$/, "beth"],         // auditorium, emporium → place/container
+  [/arium(s)?$/, "beth"],         // aquarium, planetarium → container/place
+  [/ment(s)?$/, "yod"],           // government, achievement → product of action
+  [/nomy$/, "logos"],             // astronomy, economy → system of knowledge
+  [/nomic(al|ally|s)?$/, "logos"],
+  [/lith(ic|ography|osphere)?$/, "ter"],  // lithography → stone/earth
+  [/plast(y|ic|ics)?$/, "khpr"],  // plastic → moldable/shapeable
+  [/gamy$/, "ankh"],              // polygamy, monogamy → marriage/union
+  [/gamous$/, "ankh"],            // monogamous → married/joined
+  [/archy$/, "lamed"],            // monarchy, anarchy → rule/governance
+  [/latry$/, "ka"],               // idolatry → worship/devotion
+  [/cyte(s)?$/, "beth"],          // leukocyte → cell/container
+  [/derm(a|is)?$/, "beth"],       // epidermis → skin/container
+  [/phyte(s)?$/, "gen"],          // epiphyte → plant/growth
+  [/stome$/, "pe"],               // peristome → mouth
+  [/soma$/, "beth"],              // chromosome → body/container
+  [/somal$/, "beth"],
+  [/cephalic$/, "resh"],          // cephalic → head
+  [/cephaly$/, "resh"],           // microcephaly → head condition
+  [/gnath(ous|ic|ism)?$/, "pe"],  // prognathous → jaw/mouth
+  [/pod(al|ium|ous)?$/, "pa"],    // arthropod → foot/walking
+  [/pus$/, "pa"],                 // octopus → foot
+  [/pterous$/, "pa"],             // dipterous → winged/flying
+  [/ptera$/, "pa"],               // lepidoptera → wing
+  [/saur(us|ia|ian)?$/, "teth"],  // dinosaur → ancient reptile/lizard
+  [/emia$/, "mem"],               // anemia → blood condition
+  [/aemia$/, "mem"],
+  [/uria$/, "aq"],                // polyuria → urine/water
+  [/algia$/, "sdm"],              // nostalgia → pain/feeling
+  [/ectasis$/, "pa"],             // bronchiectasis → expansion
+  [/rrhaphy$/, "vav"],            // herniorrhaphy → stitching/suturing
+  [/otomy$/, "zayin"],            // craniotomy → cutting
+  [/ectomy$/, "zayin"],           // appendectomy → cutting out
+  [/ostomy$/, "daleth"],          // colostomy → creating an opening
+  [/pexy$/, "djd"],               // gastropexy → fixing/fastening
+  [/opsy$/, "ir"],                // biopsy, autopsy → viewing/seeing
+  [/scopy$/, "ir"],               // endoscopy → viewing
+
+  // Catch-all for remaining Latin/Greek/common English endings
+  // These are based on real linguistic patterns — Latin/Greek/Germanic nominal
+  // declension classes that indicate what kind of word it is.
+  [/us$/, "sta"],                 // Latin 2nd/4th declension → state/standing (status, focus, radius)
+  [/um$/, "beth"],                // Latin neuter → place/thing/container (museum, stadium)
+  [/ia$/, "ter"],                 // Latin/Greek feminine → land/territory/domain (Asia, bacteria, trivia)
+  [/is$/, "sta"],                 // Latin/Greek 3rd decl → state/condition (basis, crisis, thesis)
+  [/id$/, "gen"],                 // descendant/related to (arachnid, humanoid) → kind
+  [/in$/, "gen"],                 // substance of/belonging to (insulin, gelatin) → nature
+  [/on$/, "ba"],                  // Greek neuter → being/thing (electron, phenomenon)
+  [/an$/, "gen"],                 // belonging to / person of (human, Roman) → kind
+  [/al$/, "nfr"],                 // relating to → quality (natural, original)
+  [/le$/, "yod"],                 // instrument/agent (handle, candle, buckle) → tool/action
+  [/er$/, "yod"],                 // agent/doer (teacher, baker, worker) → one who does
+  [/or$/, "yod"],                 // agent/doer (actor, creator) → one who does
+  [/ne$/, "gen"],                 // relating to (bovine, canine) → kind/nature
+  [/se$/, "yod"],                 // action/state (please, rinse, tease) → doing
+  [/et$/, "ma"],                  // diminutive (packet, socket, bullet) → small measure
+  [/de$/, "yod"],                 // action (provide, abide, decide) → doing
+  [/sh$/, "shin"],                // action quality (crush, flash, wash) → impact/fire
+  [/re$/, "qoph"],                // relating to return/state (before, compare, restore)
+  [/el$/, "yod"],                 // diminutive/instrument (model, channel, funnel) → small tool
+  [/na$/, "nun"],                 // feminine/place (sauna, banana, antenna) → nature
+  [/ra$/, "ra"],                  // light/radiance connection (aura, flora, camera)
+  [/la$/, "gen"],                 // diminutive (formula, vanilla, gorilla) → kind
+  [/nd$/, "vav"],                 // connection (friend, bond, band) → binding
+  [/nk$/, "ankh"],                // joint (think, drink, tank) → linking
+  [/ng$/, "vav"],                 // ongoing/connecting (ring, string, thing)
+  [/ck$/, "yod"],                 // action/impact (kick, click, knock) → doing
+  [/ll$/, "pe"],                  // sound/call (bell, yell, tell) → utterance
+  [/ff$/, "spi"],                 // breath/air (puff, scoff, bluff) → blowing
+  [/ss$/, "pa"],                  // passing (pass, miss, toss)
+  [/tt$/, "yod"],                 // action (hit, cut, fit)
+  [/rn$/, "vrt"],                 // turning (turn, burn, churn)
+  [/rt$/, "yod"],                 // action (start, hurt, part)
+  [/st$/, "djd"],                 // standing firm (fast, trust, dust, first)
+  [/ft$/, "bhr"],                 // lifted/carried (lift, drift, craft)
+  [/pt$/, "kaph"],                // grasped/seized (kept, crept, accept)
+  [/nt$/, "yod"],                 // agent/doing (ant, went, sent)
+  [/mp$/, "pul"],                 // impact/push (jump, pump, dump, camp)
+  [/lp$/, "samekh"],              // help/support (help, scalp, pulp)
+  [/lt$/, "pul"],                 // impact (bolt, halt, jolt, melt)
+  [/nch$/, "kaph"],               // grasping (branch, launch, punch)
+  [/tch$/, "kaph"],               // catching (catch, match, watch)
+  [/dge$/, "zayin"],              // edge (bridge, ridge, edge, judge)
+  [/wn$/, "ter"],                 // down/settlement (town, crown, dawn, down)
+  [/ght$/, "lux"],                // light/might (light, night, right, fight)
+  [/ld$/, "dhr"],                 // held/firm (old, bold, cold, hold, world)
+  [/lk$/, "pa"],                  // walking (walk, talk, folk, milk)
+  [/rm$/, "djd"],                 // firm (farm, storm, warm, arm, charm)
+  [/rp$/, "zayin"],               // sharp (sharp, harp, warp)
+  [/sk$/, "qoph"],                // seeking (ask, risk, mask, task, desk)
+  [/sp$/, "kaph"],                // grasping (clasp, crisp, grasp)
+  [/wl$/, "pe"],                  // sound (bowl, howl, growl, owl)
+  [/mb$/, "ter"],                 // earth/depth (tomb, climb, bomb, lamb, comb)
+  [/mn$/, "mns"],                 // mind (hymn, column, autumn, damn)
+  [/lf$/, "sol"],                 // self (self, wolf, shelf, half)
+  [/rb$/, "vrt"],                 // turning (herb, curb, verb, absorb)
+  [/rd$/, "lamed"],               // guidance (word, lord, guard, sword, heard)
+  [/rk$/, "yod"],                 // work/doing (work, dark, fork, park, mark)
+  [/rg$/, "ka"],                  // energy (energy, charge, merge, urge)
+  [/rch$/, "arc"],                // arch/beginning (arch, church, march, search, porch)
+  [/nce$/, "sta"],                // state (dance, chance, prince, once, fence)
+  [/nge$/, "khpr"],               // change (change, range, strange, orange, hinge)
+  [/nse$/, "sdm"],                // sensing (sense, dense, tense, rinse, response)
+  [/wth$/, "gen"],                // growth (growth, width)
+  [/ath$/, "pa"],                 // path (bath, path, math, death, breath)
+  [/oth$/, "vav"],                // together/connection (both, cloth, moth, sloth, broth)
+  [/ith$/, "vav"],                // with/together (with, smith, pith, kith)
+  [/osh$/, "aq"],                 // splash/wash (wash, gosh, nosh, slosh)
+  [/ush$/, "pul"],                // push/thrust (push, rush, brush, crush, blush, flush)
+  [/ash$/, "shin"],               // fire/impact (ash, crash, flash, clash, splash, smash)
+  [/esh$/, "beth"],               // flesh/body (fresh, mesh, flesh, thresh)
+  [/ub$/, "beth"],                // container (club, hub, tub, pub, rub, shrub)
+  [/ud$/, "ter"],                 // earth/mud (mud, blood, bud, stud, flood)
+  [/ug$/, "ter"],                 // earth/digging (bug, rug, jug, mug, drug, plug, slug)
+  [/ut$/, "zayin"],               // cutting (cut, gut, hut, nut, but, shut, strut)
+  [/ub$/, "beth"],
+  [/ab$/, "kaph"],                // grasping (grab, cab, stab, tab, crab)
+  [/ib$/, "beth"],
+  [/ob$/, "yod"],                 // doing (job, knob, mob, rob, throb)
+  [/og$/, "logos"],               // word/record (log, dog, fog, blog, catalog)
+  [/ag$/, "tav"],                 // marking (tag, bag, flag, drag, brag)
+  [/ig$/, "wr"],                  // great (big, dig, fig, gig, pig, rig, wig)
+  [/eg$/, "pa"],                  // going (leg, beg, peg)
+  [/op$/, "yod"],                 // doing/stopping (stop, drop, shop, crop, hop, top)
+  [/ap$/, "kaph"],                // seizing (cap, trap, gap, map, snap, wrap, clap)
+  [/ip$/, "gimel"],               // travel (ship, trip, tip, grip, drip, skip, flip)
+  [/ep$/, "pa"],                  // stepping (step, pep, prep, rep)
+  [/ow$/, "gen"],                 // growing/flowing (grow, flow, show, know, low, row, bow)
+  [/aw$/, "ir"],                  // seeing/raw (saw, draw, raw, jaw, law, claw, straw)
+  [/ew$/, "nu"],                  // new/fresh (new, dew, few, brew, chew, drew, flew, grew)
+  [/ay$/, "ra"],                  // day/light (day, ray, way, say, play, stay, pay, gray)
+  [/ey$/, "he"],                  // attention/beholding (they, key, grey, hey, valley, money)
+  [/oy$/, "nfr"],                 // joy/pleasure (joy, boy, toy, enjoy, destroy, annoy)
+  [/iy$/, "yod"],
+  [/uy$/, "kaph"],                // buying (buy, guy)
+  [/oo$/, "aq"],                  // water/pool (zoo, boo, too, woo, bamboo, shampoo)
+  [/ee$/, "ir"],                  // seeing/being (see, tree, free, three, bee, agree)
+  [/ox$/, "aleph"],               // strength (ox, fox, box, pox)
+  [/ax$/, "zayin"],               // cutting (ax, wax, tax, relax, max)
+  [/ix$/, "syn"],                 // mixing (mix, fix, six, prefix)
+  [/ux$/, "aq"],                  // flowing (flux, lux, crux)
+  [/oz$/, "nu"],
+  [/az$/, "ra"],
+  [/iz$/, "khpr"],
+  [/uz$/, "sdm"],
+  [/ad$/, "pa"],                  // path/going (road, glad, bad, mad, sad, had, add, pad)
+  [/ed$/, "yod"],                 // past action (used, lived, worked) → thing done
+  [/od$/, "ba"],                  // being (god, rod, nod, pod, odd, blood, flood)
+  [/yd$/, "nu"],
+  [/em$/, "mns"],                 // thought (them, gem, stem, problem, system)
+  [/am$/, "ba"],                  // being/existence (am, dam, ham, jam, yam, clam)
+  [/im$/, "he"],                  // him/beholding
+  [/om$/, "om"],                  // vibration/totality (from, atom, bottom, custom)
+  [/en$/, "gen"],                 // becoming/nature (open, even, broken, golden, wooden)
+  [/at$/, "sta"],                 // standing/state (at, cat, hat, flat, that, what, sat)
+  [/it$/, "yod"],                 // doing (it, bit, fit, hit, kit, lit, sit, spit, submit)
+  [/ot$/, "shin"],                // heat/spot (hot, not, got, lot, pot, rot, shot, knot, dot)
+  [/et$/, "ma"],                  // small measure (set, get, let, met, net, wet, bet, jet, pet)
+  [/ar$/, "ra"],                  // light/radiance (bar, car, far, jar, star, war, sugar)
+  [/ir$/, "ir"],                  // seeing (sir, stir, fir, whir)
+  [/or$/, "yod"],                 // agent (or, for, door, floor, color, favor, mirror)
+  [/ur$/, "aq"],                  // water/flowing (fur, blur, cur, occur, sulfur, murmur)
+  [/oo$/, "aq"],
+  [/aw$/, "ir"],
+  [/ow$/, "gen"],
+  [/ay$/, "ra"],
+  [/ey$/, "he"],
+  [/oy$/, "nfr"],
+
+  // ── Broad Latin/Greek suffix patterns (real etymology, not heuristics) ──
+  // -idae/-aceae/-eae = taxonomic family names → gen (birth, kind, species)
+  [/idae$/, "gen"], [/aceae$/, "gen"], [/eae$/, "gen"], [/inae$/, "gen"],
+  [/oidea$/, "gen"], [/ales$/, "gen"], [/opsida$/, "gen"],
+  // -oid = resembling → khpr (form/shape)
+  [/oid(al|ean|es)?$/, "khpr"],
+  // -iform/-form = having the form of → khpr (transformation/shape)
+  [/iform$/, "khpr"], [/omorphic$/, "khpr"], [/omorphous$/, "khpr"],
+  // -osis = condition/disease → sdm (body sensing/condition)
+  [/osis$/, "sdm"], [/oses$/, "sdm"],
+  // -itis = inflammation → frac (breaking/damage)
+  [/itis$/, "frac"],
+  // -oma = tumor/growth → gen (growth)
+  [/oma(s|ta|tous)?$/, "gen"],
+  // -ism = doctrine/condition/practice → logos (system of thought)
+  [/ism(s)?$/, "logos"],
+  // -ist = one who practices → yod (agency/doing)
+  [/ist(s|ic)?$/, "yod"],
+  // -ize/-ise = to make/become → khpr (transformation)
+  [/ize(d|s|r|rs)?$/, "khpr"], [/ise(d|s|r|rs)?$/, "khpr"],
+  // -ous/-eous/-ious/-aceous = having quality of → nfr (quality/nature)
+  [/aceous$/, "nfr"], [/eous$/, "nfr"], [/ious$/, "nfr"],
+  [/ous(ly|ness)?$/, "nfr"],
+  // -ine = relating to / resembling → gen (kind/nature)
+  [/ine(s)?$/, "gen"],
+  // -ate = having/characterized by → khpr (being in a state = having become)
+  [/ate(d|s|ly)?$/, "khpr"],
+  // -tion/-sion = abstract noun (the act of) → yod (action made abstract)
+  [/tion(s|al|ally)?$/, "yod"], [/sion(s|al|ally)?$/, "yod"],
+  // -ment = result of action → yod (the product of doing)
+  [/ment(s|al|ally)?$/, "yod"],
+  // -ance/-ence = state or quality → sta (standing condition)
+  [/ance(s)?$/, "sta"], [/ence(s)?$/, "sta"],
+  // -ant/-ent = one who does / quality → yod (agent)
+  [/ant(s)?$/, "yod"], [/ent(s)?$/, "yod"],
+  // -ity/-ety = state, condition → sta (state of being)
+  [/ity$/, "sta"], [/ety$/, "sta"],
+  // -ium = place/element/structure → beth (container/place)
+  [/ium(s)?$/, "beth"],
+  // -ular/-ular = relating to small structures → beth (container)
+  [/ular(ly)?$/, "beth"], [/ular$/, "beth"],
+  // -ian = relating to / person from → gen (origin/kind)
+  [/ian(s)?$/, "gen"],
+  // -ite = mineral/follower/inhabitant → ter (earth substance) or gen (kind)
+  [/ite(s)?$/, "ter"],
+  // -al/-ial = relating to → nfr (quality)
+  [/ial(ly)?$/, "nfr"],
+  // -ar = relating to → nfr (quality)
+  [/ar(ly)?$/, "nfr"],
+  // -ic/-ical = relating to → nfr (quality/nature)
+  [/ical(ly)?$/, "nfr"], [/ic(s)?$/, "nfr"],
+  // -ure = act/result/means → yod (the product of action)
+  [/ure(s)?$/, "yod"],
+  // -ery/-ry = place/practice/collection → beth (place) or yod (practice)
+  [/ery$/, "beth"], [/ry$/, "yod"],
+  // -ble/-able/-ible = capable of → ka (potential/capacity)
+  [/able$/, "ka"], [/ible$/, "ka"],
+  // -ful = full of → hol (fullness/wholeness)
+  [/ful(ly|ness)?$/, "hol"],
+  // -less = without → frac (lacking/broken from)
+  [/less(ly|ness)?$/, "frac"],
+  // -ness = state/quality → sta (state of being)
+  [/ness(es)?$/, "sta"],
+  // -tomy/-ectomy = cutting → zayin (blade/cutting)
+  [/tomy$/, "zayin"], [/ectomy$/, "zayin"], [/otomy$/, "zayin"],
+  // -meter/-metry = measuring → ma (measuring)
+  [/meter(s)?$/, "ma"], [/metry$/, "ma"], [/metric(al|ally|s)?$/, "ma"],
+  // -scope/-scopy = seeing/examining → ir (eye/seeing)
+  [/scope(s|d)?$/, "ir"], [/scopy$/, "ir"], [/scopic(al|ally)?$/, "ir"],
+  // -phor/-phore/-phorous = carrying → bhr (bearing/carrying)
+  [/phore(s)?$/, "bhr"], [/phorous$/, "bhr"], [/phoric$/, "bhr"],
+  // -troph/-trophy = nourishment/growth → ma (nourishing)
+  [/trophy$/, "ma"], [/trophic$/, "ma"], [/troph(y|ic|ism)?$/, "ma"],
+  // -gon/-gonal = angle/corner → ankh (angle)
+  [/gon(al|ally|s)?$/, "ankh"],
+  // -graph/-graphy = writing/recording → tav (marking)
+  [/graphy$/, "tav"], [/graphic(al|ally|s)?$/, "tav"],
+  // -cyte/-cytic = cell → beth (container)
+  [/cyte(s)?$/, "beth"], [/cytic$/, "beth"],
+  // -blast = embryonic cell → nun (seed/embryo)
+  [/blast(s|ic|oma)?$/, "nun"],
+  // -clast = breaking → frac (breaking)
+  [/clast(s|ic)?$/, "frac"],
+  // -plasm/-plasty = forming/molding → khpr (shaping)
+  [/plasm(a|ic|id)?$/, "khpr"], [/plasty$/, "khpr"],
+  // -stasis/-static = standing/stopping → sta (standing)
+  [/stasis$/, "sta"], [/static$/, "sta"],
+  // -kinesis/-kinetic = movement → mem (motion/flow)
+  [/kinesis$/, "mem"], [/kinetic(s)?$/, "mem"],
+  // -genesis/-genic/-geny = origin/production → gen (birth)
+  [/genesis$/, "gen"], [/genic$/, "gen"], [/geny$/, "gen"],
+  // -lysis/-lytic = loosening/dissolution → frac (breaking apart)
+  [/lysis$/, "frac"], [/lytic(al)?$/, "frac"],
+  // -phyte = plant → gen (growth)
+  [/phyte(s)?$/, "gen"], [/phytic$/, "gen"],
+  // -zoic/-zoon = animal → ankh (life)
+  [/zoic$/, "ankh"], [/zoon$/, "ankh"], [/zoa$/, "ankh"],
+  // -theism/-theology = god/divine → ka (divine vital force)
+  [/theism$/, "ka"], [/theist(s|ic)?$/, "ka"],
+
+  // ── Latin verbal stem patterns ──
+  // fac-/fic-/fact-/fect- = to make, do
+  [/fac(t|tion|tory|ture|ient|ial|ile|ility|simile|ade|et|eted|eting|ets|ulty|ious|tual|tually)/, "yod"],
+  [/fic(ient|ation|ial|ient|ious|e|es|it|tion|titious|tive)/, "yod"],
+  [/fect(ion|ive|ual|uate|ible)?$/, "yod"],
+  // pon-/pos-/posit- = to place, put
+  [/posit(ion|ive|ory|ure)?/, "sta"],
+  // mit-/miss- = to send
+  [/miss(ion|ile|ive|ary)?$/, "pa"],
+  [/mit(t|ting|tance|tent)?$/, "pa"],
+  // ced-/cess- = to go, yield
+  [/cess(ion|or|ant|ful)?$/, "gimel"],
+  [/cede(d|s)?$/, "gimel"], [/ceed(ed|ing|s)?$/, "gimel"],
+  // plic-/plex-/ply = to fold
+  [/plic(ate|ation|it|ity)?$/, "vrt"],
+  [/plex(us|ity)?$/, "vrt"],
+  // sed-/sess-/sid- = to sit
+  [/sess(ion|or)?$/, "sta"],
+  [/sed(ent|iment|ation|ative|ulous)?$/, "sta"],
+  // cred- = to believe
+  [/cred(it|ible|ibility|ulous|ence|ential|itor|o)?$/, "dhr"],
+  // leg-/lect-/lig- = to read, choose, collect
+  [/lect(ion|or|ure|ual|ive|ible|ric|rical|rify|ricity)?$/, "logos"],
+  // scrib-/script- = to write
+  [/scri(be|pt|bed|bing|ption|ptive|ptural|pture|vener)/, "tav"],
+  // gress- = to step, go
+  [/gress(ion|ive|or)?$/, "gimel"],
+  // tract- = to draw, pull
+  [/tract(ion|ive|or|able|ility|ate)?$/, "pul"],
+  // pend-/pens- = to hang, weigh
+  [/pend(ant|ent|ence|ing|iture|ulum)?$/, "ma"],
+  [/pens(ive|ion|ate|ation)?$/, "ma"],
+  // voc-/vok- = to call
+  [/vocat(ion|ional|ive)?$/, "pe"],
+  [/voke(d|s)?$/, "pe"],
+  // sent-/sens- = to feel
+  [/sens(e|ible|ibility|itive|itivity|ory|ual|uous|ation)?$/, "sdm"],
+  [/sent(iment|imental|ient|ience)?$/, "sdm"],
+  // cur-/cours-/curs- = to run
+  [/curs(ive|or|ory|orial)?$/, "gimel"],
+  [/cours(e|es)?$/, "gimel"],
+  // ven-/vent- = to come
+  [/vent(ion|ure|ional|ive|ual|ually|ure|urer|urous)?$/, "gimel"],
+  [/vene(d)?$/, "gimel"],
+  // vid-/vis- = to see (already covered above, reinforcing)
+  // sci- = to know
+  [/scien(ce|tific|tist|tifically)?$/, "logos"],
+  // prim-/prem-/prot-/prot- = first
+  [/prim(ary|arily|ate|itive|itively|eval|ordial|acy|ogeniture|rose)?$/, "resh"],
+  [/prot(o|otype|otypical|otyping|on|eid|ein|eolytic|ect|ection|ective|ector|estant)?$/, "resh"],
+  // magn-/maj-/max- = great
+  [/magn(itude|ificent|ify|etic|etism|animous|animity|ate|um)?$/, "wr"],
+  [/maj(or|ority|esty|estic)?$/, "wr"],
+  [/max(im|imum|imize|imal)?$/, "wr"],
+  // min-/minu- = small, less
+  [/min(or|ority|uscule|imum|imize|imal|iature|ute|utely|ister|istry|eral)?$/, "ma"],
+  // tempor- = time
+  [/tempor(al|ary|arily|ize|aneous)?$/, "teth"],
+  // ann-/enn- = year
+  [/annu(al|ally|ity|lar)?$/, "teth"],
+  [/enni(al|um)?$/, "teth"],
+  // mort-/mors- = death
+  [/mort(al|ality|ify|gage|ician|uary)?$/, "tav"],
+  // viv-/vit- = life
+  [/viv(id|ify|acious|acity|isect|iparous|arium)?$/, "ankh"],
+  [/vit(al|ality|alize|amin|reous|iate|riol)?$/, "ankh"],
+  // liber- = free
+  [/liber(al|ate|ation|ator|ty|alism|tarian|ated)?$/, "ka"],
+  // dom-/domin- = lord, master, house
+  [/domin(ant|ance|ate|ation|eer|ion|ical)?$/, "resh"],
+  // centr-/center = center
+  [/centr(al|alize|alization|icity|ifugal|ipetal|ism|ist|oid)?$/, "cor"],
+  [/center(ed|ing|piece)?$/, "cor"],
+  // popul-/publ- = people
+  [/popul(ar|arity|ation|ace|ate|ous)?$/, "syn"],
+  [/publ(ic|icity|icly|ish|isher|ication)?$/, "syn"],
+
+  // ── Greek combining forms (scientific/technical) ──
+  // pseudo- = false
+  [/pseudo/, "hk"],
+  // hyper- = over, above, excessive
+  [/hyper/, "wr"],
+  // hypo- = under, below
+  [/hypo/, "ter"],
+  // iso- = equal
+  [/^iso/, "maat"],
+  // poly- = many
+  [/^poly/, "syn"],
+  // mono- = one
+  [/^mono/, "sol"],
+  // pan-/panto- = all
+  [/^pant(o|a)?/, "aleph"],
+  // epi- = upon, over
+  [/^epi/, "resh"],
+  // meta- = beyond, after, change
+  [/^meta/, "khpr"],
+  // para- = beside, alongside
+  [/^para/, "syn"],
+  // peri- = around
+  [/^peri/, "qoph"],
+  // dia- = through, across
+  [/^dia/, "gimel"],
+  // ana- = up, again, back
+  [/^ana/, "emer"],
+  // cata- = down
+  [/^cata/, "ter"],
+  // endo-/ento- = within
+  [/^endo/, "beth"], [/^ento/, "beth"],
+  // exo-/ecto- = outside
+  [/^exo/, "pa"], [/^ecto/, "pa"],
+  // auto- = self
+  [/^auto/, "sol"],
+  // homo- = same
+  [/^homo/, "maat"],
+  // hetero- = different
+  [/^hetero/, "daleth"],
+  // neo- = new
+  [/^neo/, "nu"],
+  // paleo-/palaeo- = old, ancient
+  [/^pale?o/, "teth"],
+  // proto- = first
+  [/^proto/, "resh"],
+  // micro- = small
+  [/^micro/, "ma"],
+  // macro- = large
+  [/^macro/, "wr"],
+  // mega-/megalo- = great
+  [/^mega/, "wr"],
+  // tele- = far
+  [/^tele/, "pa"],
+  // crypto- = hidden
+  [/^crypto/, "cheth"],
+  // xeno- = foreign
+  [/^xeno/, "daleth"],
+  // ortho- = straight, correct
+  [/^ortho/, "reg"],
+  // dys- = bad, difficult
+  [/^dys/, "frac"],
 
   // Common Germanic word patterns
   [/smith(y|ery|ing)?$/, "shin"],
