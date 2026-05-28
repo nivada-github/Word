@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const { download, load } = require("./words");
 const searchRoutes = require("./routes/search");
+const rootWordsRoutes = require("./routes/root_words");
 
 const app = express();
 
@@ -25,6 +26,11 @@ app.get("/api", (_req, res) => {
       "GET /api/search?q=&limit=": "Search through data (autofill-ready, ranked results)",
       "GET /api/search/status": "Search index status",
       "POST /api/search/reload": "Reload search data from disk",
+      "GET /api/root-words": "Root words metadata (use ?include=words for full list)",
+      "GET /api/root-words/search?q=": "Search root words by any field",
+      "GET /api/root-words/random": "Get random root word(s)",
+      "GET /api/root-words/:root": "Get a specific root word by name",
+      "GET /api/root-words/:root/descendants": "Get modern descendants of a root word",
     },
   });
 });
@@ -80,6 +86,7 @@ app.get("/health", (_req, res) => {
 });
 
 app.use("/api", searchRoutes);
+app.use("/api/root-words", rootWordsRoutes);
 
 app.use((_req, res) => {
   res.status(404).json({ error: "Not found. Hit GET /api for available endpoints." });
