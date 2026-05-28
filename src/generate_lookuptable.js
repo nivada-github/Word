@@ -1090,6 +1090,35 @@ const STEM_PATTERNS = [
   [/oy$/, "nfr"],                 // joy/pleasure (joy, boy, toy, enjoy, destroy, annoy)
   [/iy$/, "yod"],
   [/uy$/, "kaph"],                // buying (buy, guy)
+
+  // Final catch — any remaining words by their terminal character
+  // These represent the broadest etymological categories for word endings
+  [/a$/, "gen"],    // -a: Latin/Greek feminine → kind/nature
+  [/e$/, "yod"],    // -e: action/instrument/agent
+  [/i$/, "yod"],    // -i: Latin/Greek → doing/being
+  [/o$/, "ba"],     // -o: being/existence
+  [/u$/, "aq"],     // -u: flow/water sounds
+  [/y$/, "gen"],    // -y: quality/nature/kind
+  [/s$/, "syn"],    // -s: plural → together/multiple
+  [/l$/, "lamed"],  // -l: instrument/tool → goading/guiding
+  [/h$/, "spi"],    // -h: breath/aspiration
+  [/k$/, "yod"],    // -k: action/impact
+  [/c$/, "logos"],  // -c: relating to knowledge/study
+  [/n$/, "gen"],    // -n: substance/nature
+  [/f$/, "spi"],    // -f: breath/blowing
+  [/t$/, "yod"],    // -t: action/result
+  [/p$/, "kaph"],   // -p: grasping/seizing
+  [/m$/, "mem"],    // -m: flow/water
+  [/x$/, "syn"],    // -x: combining/complex
+  [/r$/, "ra"],     // -r: radiance/agent
+  [/z$/, "zayin"],  // -z: cutting/sharpness
+  [/v$/, "ka"],     // -v: vital force/movement
+  [/d$/, "yod"],    // -d: action/done
+  [/b$/, "beth"],   // -b: container/enclosure
+  [/g$/, "gen"],    // -g: growth/kind
+  [/w$/, "vav"],    // -w: connection/viewing
+  [/q$/, "qoph"],   // -q: circuit/seeking
+  [/j$/, "yod"],    // -j: hand/agency
   [/oo$/, "aq"],                  // water/pool (zoo, boo, too, woo, bamboo, shampoo)
   [/ee$/, "ir"],                  // seeing/being (see, tree, free, three, bee, agree)
   [/ox$/, "aleph"],               // strength (ox, fox, box, pox)
